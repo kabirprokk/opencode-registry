@@ -4,7 +4,7 @@ A community registry of skills, agents, and commands for [OpenCode](https://gith
 
 ## Browse & install
 
-**Website:** https://opencode-marketplace-web.vercel.app
+**Website:** https://ocmskills.vercel.app
 
 Install the CLI (requires Node.js 20+, npm, and Git):
 ```bash
