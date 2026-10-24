@@ -1837,6 +1837,126 @@
       "install": "git",
       "tags": ["continue", "code-review", "checks", "cli"],
       "license": "Apache-2.0"
+    },
+    {
+      "name": "adk-agent-builder",
+      "type": "skill",
+      "version": "main",
+      "description": "Build and test Google ADK Python agents, tools, graph workflows, and human-in-the-loop flows.",
+      "author": "Google",
+      "repo": "https://github.com/google/adk-python",
+      "path": ".agents/skills/adk-agent-builder",
+      "install": "git",
+      "tags": ["google", "adk", "agents", "python"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "adk-architecture",
+      "type": "skill",
+      "version": "main",
+      "description": "Explain Google ADK runtime, graph execution, events, context, tracing, and public API architecture.",
+      "author": "Google",
+      "repo": "https://github.com/google/adk-python",
+      "path": ".agents/skills/adk-architecture",
+      "install": "git",
+      "tags": ["google", "adk", "architecture", "python"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "adk-debug",
+      "type": "skill",
+      "version": "main",
+      "description": "Diagnose misbehaving Google ADK agents by inspecting sessions, events, tool calls, and model requests.",
+      "author": "Google",
+      "repo": "https://github.com/google/adk-python",
+      "path": ".agents/skills/adk-debug",
+      "install": "git",
+      "tags": ["google", "adk", "debugging", "agents"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "adk-git",
+      "type": "skill",
+      "version": "main",
+      "description": "Write repository-conformant commit messages and pull request descriptions for Google ADK Python.",
+      "author": "Google",
+      "repo": "https://github.com/google/adk-python",
+      "path": ".agents/skills/adk-git",
+      "install": "git",
+      "tags": ["google", "adk", "git", "pull-requests"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "adk-review",
+      "type": "skill",
+      "version": "main",
+      "description": "Review Google ADK Python changes for correctness, API stability, tests, samples, and documentation gaps.",
+      "author": "Google",
+      "repo": "https://github.com/google/adk-python",
+      "path": ".agents/skills/adk-review",
+      "install": "git",
+      "tags": ["google", "adk", "code-review", "python"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "adk-setup",
+      "type": "skill",
+      "version": "main",
+      "description": "Set up a local Google ADK Python development checkout, dependencies, hooks, and tests.",
+      "author": "Google",
+      "repo": "https://github.com/google/adk-python",
+      "path": ".agents/skills/adk-setup",
+      "install": "git",
+      "tags": ["google", "adk", "setup", "python"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "adk-style",
+      "type": "skill",
+      "version": "main",
+      "description": "Apply Google ADK Python conventions for imports, typing, Pydantic, async I/O, tests, and formatting.",
+      "author": "Google",
+      "repo": "https://github.com/google/adk-python",
+      "path": ".agents/skills/adk-style",
+      "install": "git",
+      "tags": ["google", "adk", "python", "style"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "adk-unit-design",
+      "type": "skill",
+      "version": "main",
+      "description": "Document the implemented architecture, data flow, extension points, and constraints of an ADK code unit.",
+      "author": "Google",
+      "repo": "https://github.com/google/adk-python",
+      "path": ".agents/skills/adk-unit-design",
+      "install": "git",
+      "tags": ["google", "adk", "architecture", "documentation"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "adk-unit-guide",
+      "type": "skill",
+      "version": "main",
+      "description": "Write hands-on developer guides with runnable examples and configuration details for ADK code units.",
+      "author": "Google",
+      "repo": "https://github.com/google/adk-python",
+      "path": ".agents/skills/adk-unit-guide",
+      "install": "git",
+      "tags": ["google", "adk", "documentation", "guides"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "adk-verify-snippets",
+      "type": "skill",
+      "version": "main",
+      "description": "Extract and run Python code blocks from Markdown to verify documentation snippets.",
+      "author": "Google",
+      "repo": "https://github.com/google/adk-python",
+      "path": ".agents/skills/adk-verify-snippets",
+      "install": "git",
+      "tags": ["google", "adk", "documentation", "testing"],
+      "license": "Apache-2.0"
     }
   ]
 }
