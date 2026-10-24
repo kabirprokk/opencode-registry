@@ -6,10 +6,13 @@ A community registry of skills, agents, and commands for [OpenCode](https://gith
 
 **Website:** https://opencode-marketplace-web.vercel.app
 
-Install the CLI:
+Install the CLI (requires Node.js 20+, npm, and Git):
 ```bash
-npm install -g opencode-marketplace
+npm install --global github:kabirprokk/opencode-marketplace
 ```
+
+The unscoped npm name `opencode-marketplace` belongs to a different project.
+Use the GitHub install command above for this CLI.
 
 Commands:
 ```bash
@@ -17,7 +20,7 @@ ocm list              # list all packages
 ocm search <query>    # search
 ocm info <name>       # details
 ocm install <name>    # install to ~/.config/opencode/
-ocm remove <name>     # uninstall
+ocm remove <name>     # remove only CLI-tracked installs
 ```
 
 ## Publish your own
@@ -45,6 +48,12 @@ ocm remove <name>     # uninstall
 ```
 
 Types: `skill`, `agent`, `command`, `skill-pack`.
+
+Package entries are community submissions and are not security-reviewed.
+Review the source repository before installing. For individual skills, agents,
+and commands, `path` must point to the specific source folder or Markdown file.
+Skill packs are expected to provide `skills/`, `agents/`, and/or `commands/`
+directories. The CLI skips existing package paths instead of overwriting them.
 
 ## License
 MIT
