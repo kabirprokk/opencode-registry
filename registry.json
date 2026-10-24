@@ -769,6 +769,90 @@
       "install": "git",
       "tags": ["learning", "teaching", "productivity"],
       "license": "MIT"
+    },
+    {
+      "name": "ask-matt",
+      "type": "skill",
+      "version": "main",
+      "description": "Route a request to the appropriate engineering skill or workflow in the collection.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/ask-matt",
+      "install": "git",
+      "tags": ["routing", "workflow", "skills"],
+      "license": "MIT"
+    },
+    {
+      "name": "wizard",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate interactive setup wizards for steps that require a human, such as credentials or dashboards.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/wizard",
+      "install": "git",
+      "tags": ["setup", "interactive", "infrastructure"],
+      "license": "MIT"
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "type": "skill",
+      "version": "main",
+      "description": "Configure issue tracking, triage labels, and domain documentation for the engineering skill collection.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/setup-matt-pocock-skills",
+      "install": "git",
+      "tags": ["setup", "engineering", "configuration"],
+      "license": "MIT"
+    },
+    {
+      "name": "to-questionnaire",
+      "type": "skill",
+      "version": "main",
+      "description": "Turn an unresolved decision into a questionnaire another person can complete.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/productivity/to-questionnaire",
+      "install": "git",
+      "tags": ["questionnaire", "decisions", "communication"],
+      "license": "MIT"
+    },
+    {
+      "name": "wait-what",
+      "type": "skill",
+      "version": "main",
+      "description": "Ask for a clearer explanation when a previous message did not make sense.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/productivity/wait-what",
+      "install": "git",
+      "tags": ["communication", "clarification", "productivity"],
+      "license": "MIT"
+    },
+    {
+      "name": "git-guardrails-claude-code",
+      "type": "skill",
+      "version": "main",
+      "description": "Set up Claude Code hooks that block selected potentially destructive Git commands.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/misc/git-guardrails-claude-code",
+      "install": "git",
+      "tags": ["git", "safety", "claude-code"],
+      "license": "MIT"
+    },
+    {
+      "name": "setup-pre-commit",
+      "type": "skill",
+      "version": "main",
+      "description": "Configure Husky pre-commit hooks for formatting, type checking, and tests.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/misc/setup-pre-commit",
+      "install": "git",
+      "tags": ["git", "hooks", "quality"],
+      "license": "MIT"
     }
   ]
 }
