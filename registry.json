@@ -2290,6 +2290,17 @@
       "install": "git",
       "tags": ["skills", "codex", "subagents", "automation", "collection"],
       "license": "MIT"
+    },
+    {
+      "name": "garden-skills",
+      "type": "skill-pack",
+      "version": "main",
+      "description": "Production-ready agent skills for web design, knowledge retrieval, image generation, and more.",
+      "author": "ConardLi",
+      "repo": "https://github.com/ConardLi/garden-skills",
+      "install": "git",
+      "tags": ["skills", "web-design", "image-generation", "knowledge", "agents"],
+      "license": "MIT"
     }
   ]
 }
