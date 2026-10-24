@@ -433,6 +433,126 @@
       "install": "git",
       "tags": ["google", "agents", "adk", "cloud"],
       "license": "Apache-2.0"
+    },
+    {
+      "name": "subagent-driven-development",
+      "type": "skill",
+      "version": "main",
+      "description": "Execute implementation plans by delegating independent tasks to focused subagents.",
+      "author": "obra",
+      "repo": "https://github.com/obra/superpowers",
+      "path": "skills/subagent-driven-development",
+      "install": "git",
+      "tags": ["agents", "implementation", "parallelism"],
+      "license": "MIT"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "type": "skill",
+      "version": "main",
+      "description": "Choose and verify an integration strategy after implementation and tests are complete.",
+      "author": "obra",
+      "repo": "https://github.com/obra/superpowers",
+      "path": "skills/finishing-a-development-branch",
+      "install": "git",
+      "tags": ["git", "release", "workflow"],
+      "license": "MIT"
+    },
+    {
+      "name": "diagnosing-superpowers",
+      "type": "skill",
+      "version": "main",
+      "description": "Investigate why a Superpowers workflow or skill behaved unexpectedly and prepare useful findings.",
+      "author": "obra",
+      "repo": "https://github.com/obra/superpowers",
+      "path": "skills/diagnosing-superpowers",
+      "install": "git",
+      "tags": ["debugging", "workflow", "skills"],
+      "license": "MIT"
+    },
+    {
+      "name": "codebase-design",
+      "type": "skill",
+      "version": "main",
+      "description": "Improve module boundaries and interfaces using deep-module design concepts.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/codebase-design",
+      "install": "git",
+      "tags": ["architecture", "modules", "design"],
+      "license": "MIT"
+    },
+    {
+      "name": "to-spec",
+      "type": "skill",
+      "version": "main",
+      "description": "Synthesize an agreed conversation into a technical specification for a configured issue tracker.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/to-spec",
+      "install": "git",
+      "tags": ["specification", "planning", "issues"],
+      "license": "MIT"
+    },
+    {
+      "name": "to-tickets",
+      "type": "skill",
+      "version": "main",
+      "description": "Break a plan or spec into dependency-aware implementation tickets for a configured tracker.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/to-tickets",
+      "install": "git",
+      "tags": ["planning", "tickets", "project-management"],
+      "license": "MIT"
+    },
+    {
+      "name": "prisma-postgres-setup",
+      "type": "skill",
+      "version": "2.2.0",
+      "description": "Set up or connect a Prisma Postgres database and configure Prisma ORM for an application.",
+      "author": "prisma",
+      "repo": "https://github.com/prisma/skills",
+      "path": "prisma-postgres-setup",
+      "install": "git",
+      "tags": ["prisma", "postgres", "database", "setup"],
+      "license": "MIT"
+    },
+    {
+      "name": "prisma-upgrade-v7",
+      "type": "skill",
+      "version": "7.6.0",
+      "description": "Guide migrations from Prisma ORM 6 to 7, including breaking changes and driver adapters.",
+      "author": "prisma",
+      "repo": "https://github.com/prisma/skills",
+      "path": "prisma-upgrade-v7",
+      "install": "git",
+      "tags": ["prisma", "migration", "upgrade"],
+      "license": "MIT"
+    },
+    {
+      "name": "prisma-compute",
+      "type": "skill",
+      "version": "main",
+      "description": "Deploy and operate Prisma applications on Prisma Compute, including logs, rollbacks, and domains.",
+      "author": "prisma",
+      "repo": "https://github.com/prisma/skills",
+      "path": "prisma-compute",
+      "install": "git",
+      "tags": ["prisma", "deployment", "hosting"],
+      "license": "MIT"
+    },
+    {
+      "name": "prisma-driver-adapter-implementation",
+      "type": "skill",
+      "version": "7.9.1",
+      "description": "Implement or modify Prisma ORM 7 SQL driver adapters and verify transactions and result mapping.",
+      "author": "prisma",
+      "repo": "https://github.com/prisma/skills",
+      "path": "prisma-driver-adapter-implementation",
+      "install": "git",
+      "tags": ["prisma", "database", "drivers", "engineering"],
+      "license": "MIT"
     }
   ]
 }
