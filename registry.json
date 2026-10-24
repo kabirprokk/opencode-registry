@@ -2268,6 +2268,17 @@
       "install": "git",
       "tags": ["skills", "commands", "workflows", "opencode", "claude-skills"],
       "license": "MIT"
+    },
+    {
+      "name": "opencode-power-pack",
+      "type": "skill-pack",
+      "version": "main",
+      "description": "55 portable skills for OpenCode, Codex, and Claude Code: code review, security audit, feature development, frontend design, and more.",
+      "author": "waybarrios",
+      "repo": "https://github.com/waybarrios/opencode-power-pack",
+      "install": "git",
+      "tags": ["skills", "code-review", "security", "frontend", "workflows"],
+      "license": "MIT"
     }
   ]
 }
