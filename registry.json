@@ -1441,6 +1441,54 @@
       "install": "git",
       "tags": ["lark", "markdown", "documents", "cli"],
       "license": "MIT"
+    },
+    {
+      "name": "lark-apps",
+      "type": "skill",
+      "version": "main",
+      "description": "Build, deploy, and operate Lark Spark/Miaoda apps, including UI prototypes and app integrations.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-apps",
+      "install": "git",
+      "tags": ["lark", "apps", "development", "deployment"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-okr",
+      "type": "skill",
+      "version": "main",
+      "description": "Manage Lark OKR cycles, objectives, key results, alignment, metrics, and progress updates.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-okr",
+      "install": "git",
+      "tags": ["lark", "okr", "goals", "planning"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-attendance",
+      "type": "skill",
+      "version": "main",
+      "description": "Look up Lark attendance and clock-in records for the current user.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-attendance",
+      "install": "git",
+      "tags": ["lark", "attendance", "records", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-skill-maker",
+      "type": "skill",
+      "version": "main",
+      "description": "Create reusable lark-cli skills that wrap API operations or orchestrate multi-step workflows.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-skill-maker",
+      "install": "git",
+      "tags": ["lark", "skill-authoring", "api", "workflow"],
+      "license": "MIT"
     }
   ]
 }
