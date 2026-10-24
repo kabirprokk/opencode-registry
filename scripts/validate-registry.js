@@ -23,7 +23,7 @@ for (const item of registry.packages) {
   if (typeof item.name !== "string" || !/^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$/.test(item.name)) throw new Error(`Invalid package name: ${item.name}`);
   if (names.has(item.name.toLowerCase())) throw new Error(`Duplicate package name: ${item.name}`);
   names.add(item.name.toLowerCase());
-  if (!["skill", "agent", "command", "skill-pack"].includes(item.type)) throw new Error(`Unsupported type for ${item.name}`);
+  if (!["skill", "agent", "command", "skill-pack", "mcp"].includes(item.type)) throw new Error(`Unsupported type for ${item.name}`);
   if ([item.version, item.description, item.author, item.license].some((value) => typeof value !== "string" || !value.trim()) ||
     item.description.length > 300) {
     throw new Error(`Missing or invalid metadata for ${item.name}`);
