@@ -1645,6 +1645,102 @@
       "install": "git",
       "tags": ["cloudflare", "workers", "best-practices", "edge"],
       "license": "Apache-2.0"
+    },
+    {
+      "name": "wrangler",
+      "type": "skill",
+      "version": "main",
+      "description": "Run and troubleshoot Wrangler CLI commands for local development, deployment, and Workers resources.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/wrangler",
+      "install": "git",
+      "tags": ["cloudflare", "wrangler", "cli", "workers"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "web-perf",
+      "type": "skill",
+      "version": "main",
+      "description": "Audit and optimize website loading, interaction performance, Core Web Vitals, and Lighthouse scores.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/web-perf",
+      "install": "git",
+      "tags": ["web", "performance", "lighthouse", "optimization"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "workers-profiling",
+      "type": "skill",
+      "version": "main",
+      "description": "Profile CPU usage and memory allocation in deployed Cloudflare Workers and Durable Objects.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/workers-profiling",
+      "install": "git",
+      "tags": ["cloudflare", "workers", "profiling", "performance"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "cloudflare-email-service",
+      "type": "skill",
+      "version": "main",
+      "description": "Implement and troubleshoot Cloudflare Email Sending and Email Routing integrations.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/cloudflare-email-service",
+      "install": "git",
+      "tags": ["cloudflare", "email", "routing", "integration"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "cloudflare-one",
+      "type": "skill",
+      "version": "main",
+      "description": "Design and troubleshoot Cloudflare One Zero Trust and SASE deployments.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/cloudflare-one",
+      "install": "git",
+      "tags": ["cloudflare", "zero-trust", "security", "networking"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "turnstile-spin",
+      "type": "skill",
+      "version": "main",
+      "description": "Set up, repair, or migrate Cloudflare Turnstile bot verification across frontend and backend.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/turnstile-spin",
+      "install": "git",
+      "tags": ["cloudflare", "turnstile", "security", "frontend"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "cloudflare",
+      "type": "skill",
+      "version": "main",
+      "description": "Discover Cloudflare products for application, AI, storage, networking, and security needs.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/cloudflare",
+      "install": "git",
+      "tags": ["cloudflare", "architecture", "products", "cloud"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "basin",
+      "type": "skill",
+      "version": "main",
+      "description": "Build and query Cloudflare Basin analytics pipelines, catalogs, and SQL workflows.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/basin",
+      "install": "git",
+      "tags": ["cloudflare", "analytics", "data", "sql"],
+      "license": "Apache-2.0"
     }
   ]
 }
