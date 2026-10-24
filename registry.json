@@ -2279,6 +2279,17 @@
       "install": "git",
       "tags": ["skills", "code-review", "security", "frontend", "workflows"],
       "license": "MIT"
+    },
+    {
+      "name": "awesome-opencode-skills",
+      "type": "skill-pack",
+      "version": "main",
+      "description": "175+ OpenCode skills ported from Codex subagents, with auto-sync and one-command installation.",
+      "author": "jshsakura",
+      "repo": "https://github.com/jshsakura/awesome-opencode-skills",
+      "install": "git",
+      "tags": ["skills", "codex", "subagents", "automation", "collection"],
+      "license": "MIT"
     }
   ]
 }
