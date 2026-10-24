@@ -1,0 +1,78 @@
+{
+  "$schema": "./schema.json",
+  "version": 1,
+  "updated": "2026-10-24",
+  "packages": [
+    {
+      "name": "osien-stack",
+      "type": "skill-pack",
+      "version": "2.0.0",
+      "description": "Portable AI tooling stack: 47 MCP tools, city mode, 14 agents, skills, commands. Works with any MCP-compatible CLI.",
+      "author": "kabirprokk",
+      "repo": "https://github.com/kabirprokk/Osien-Stack",
+      "install": "git",
+      "tags": ["mcp", "tools", "agents", "skills", "orchestration", "city-mode"],
+      "license": "MIT"
+    },
+    {
+      "name": "caveman",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Cut output tokens ~65% with zero narration. Keeps all technical facts.",
+      "author": "kabirprokk",
+      "repo": "https://github.com/kabirprokk/Osien-Stack",
+      "path": "skills/caveman",
+      "install": "git",
+      "tags": ["tokens", "efficiency", "output"],
+      "license": "MIT"
+    },
+    {
+      "name": "osien-3d-forge",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Ultra-fast procedural 3D generator: primitives, parametric kits, LOD, auto-UV/normals, GLB/OBJ/STL export.",
+      "author": "kabirprokk",
+      "repo": "https://github.com/kabirprokk/Osien-Stack",
+      "path": "skills/osien-3d-forge",
+      "install": "git",
+      "tags": ["3d", "model", "mesh", "asset"],
+      "license": "MIT"
+    },
+    {
+      "name": "stop-slop",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Removes AI writing tells from prose (docs, READMEs, messages).",
+      "author": "kabirprokk",
+      "repo": "https://github.com/kabirprokk/Osien-Stack",
+      "path": "skills/stop-slop",
+      "install": "git",
+      "tags": ["writing", "prose", "cleanup"],
+      "license": "MIT"
+    },
+    {
+      "name": "logic",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Anti-self-sabotage + parallelism doctrine. Prevents killing terminals, interrupted processes, redundant sequential calls.",
+      "author": "kabirprokk",
+      "repo": "https://github.com/kabirprokk/Osien-Stack",
+      "path": "skills/logic",
+      "install": "git",
+      "tags": ["workflow", "parallelism", "safety"],
+      "license": "MIT"
+    },
+    {
+      "name": "ai-manager",
+      "type": "agent",
+      "version": "1.0.0",
+      "description": "Multi-agent orchestrator with context rotation and usage monitoring.",
+      "author": "kabirprokk",
+      "repo": "https://github.com/kabirprokk/Osien-Stack",
+      "path": "agents/ai-manager.md",
+      "install": "git",
+      "tags": ["orchestration", "manager", "agents"],
+      "license": "MIT"
+    }
+  ]
+}
