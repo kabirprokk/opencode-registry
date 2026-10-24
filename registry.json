@@ -1777,6 +1777,66 @@
       "install": "git",
       "tags": ["neon", "postgres", "optimization", "cost"],
       "license": "Apache-2.0"
+    },
+    {
+      "name": "playwright-cli",
+      "type": "skill",
+      "version": "main",
+      "description": "Automate browser interaction and run web checks using Microsoft's Playwright CLI.",
+      "author": "Microsoft",
+      "repo": "https://github.com/microsoft/playwright-cli",
+      "path": "skills/playwright-cli",
+      "install": "git",
+      "tags": ["playwright", "browser", "automation", "testing"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "browser-use",
+      "type": "skill",
+      "version": "main",
+      "description": "Control browsers through CDP for automation, scraping, testing, and screenshots.",
+      "author": "browser-use",
+      "repo": "https://github.com/browser-use/browser-use",
+      "path": "skills/browser-use",
+      "install": "git",
+      "tags": ["browser", "automation", "scraping", "testing"],
+      "license": "MIT"
+    },
+    {
+      "name": "browser-use-cloud",
+      "type": "skill",
+      "version": "main",
+      "description": "Reference Browser Use Cloud APIs, SDKs, sessions, profiles, and browser integrations.",
+      "author": "browser-use",
+      "repo": "https://github.com/browser-use/browser-use",
+      "path": "skills/cloud",
+      "install": "git",
+      "tags": ["browser", "cloud", "automation", "sdk"],
+      "license": "MIT"
+    },
+    {
+      "name": "browser-use-qa",
+      "type": "skill",
+      "version": "main",
+      "description": "QA-test websites and web apps in a real browser and return an evidence-backed quality score.",
+      "author": "browser-use",
+      "repo": "https://github.com/browser-use/browser-use",
+      "path": "skills/qa",
+      "install": "git",
+      "tags": ["browser", "qa", "testing", "evaluation"],
+      "license": "MIT"
+    },
+    {
+      "name": "cn-check",
+      "type": "skill",
+      "version": "main",
+      "description": "Install and run Continue CLI agent checks against local code changes.",
+      "author": "continuedev",
+      "repo": "https://github.com/continuedev/continue",
+      "path": "skills/cn-check",
+      "install": "git",
+      "tags": ["continue", "code-review", "checks", "cli"],
+      "license": "Apache-2.0"
     }
   ]
 }
