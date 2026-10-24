@@ -1741,6 +1741,42 @@
       "install": "git",
       "tags": ["cloudflare", "analytics", "data", "sql"],
       "license": "Apache-2.0"
+    },
+    {
+      "name": "neon-postgres",
+      "type": "skill",
+      "version": "main",
+      "description": "Guide Neon Postgres connections, schema changes, branching, scaling, and database search.",
+      "author": "Neon",
+      "repo": "https://github.com/neondatabase/agent-skills",
+      "path": "skills/neon-postgres",
+      "install": "git",
+      "tags": ["neon", "postgres", "database", "search"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "neon-ai-gateway",
+      "type": "skill",
+      "version": "main",
+      "description": "Call and route LLM and embedding models through Neon's unified AI gateway.",
+      "author": "Neon",
+      "repo": "https://github.com/neondatabase/agent-skills",
+      "path": "skills/neon-ai-gateway",
+      "install": "git",
+      "tags": ["neon", "ai", "llm", "gateway"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "neon-postgres-egress-optimizer",
+      "type": "skill",
+      "version": "main",
+      "description": "Diagnose excessive Postgres data transfer and reduce query overfetching and egress costs.",
+      "author": "Neon",
+      "repo": "https://github.com/neondatabase/agent-skills",
+      "path": "skills/neon-postgres-egress-optimizer",
+      "install": "git",
+      "tags": ["neon", "postgres", "optimization", "cost"],
+      "license": "Apache-2.0"
     }
   ]
 }
