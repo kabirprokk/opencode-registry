@@ -1201,6 +1201,138 @@
       "install": "git",
       "tags": ["music", "audio", "editing", "runcomfy"],
       "license": "MIT"
+    },
+    {
+      "name": "lark-doc",
+      "type": "skill",
+      "version": "main",
+      "description": "Read, create, and edit Lark cloud documents and mind notes with the Lark CLI.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-doc",
+      "install": "git",
+      "tags": ["lark", "documents", "productivity", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-calendar",
+      "type": "skill",
+      "version": "main",
+      "description": "Manage Lark calendars, events, attendees, availability, and meeting rooms using lark-cli.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-calendar",
+      "install": "git",
+      "tags": ["lark", "calendar", "meetings", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-task",
+      "type": "skill",
+      "version": "main",
+      "description": "Create, assign, and track Lark tasks, lists, subtasks, and task-agent records.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-task",
+      "install": "git",
+      "tags": ["lark", "tasks", "project-management", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-sheets",
+      "type": "skill",
+      "version": "main",
+      "description": "Create, edit, format, and analyze Lark spreadsheets, including formulas and charts.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-sheets",
+      "install": "git",
+      "tags": ["lark", "spreadsheets", "data", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-base",
+      "type": "skill",
+      "version": "main",
+      "description": "Manage Lark Base tables, fields, records, views, forms, and dashboards.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-base",
+      "install": "git",
+      "tags": ["lark", "database", "tables", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-drive",
+      "type": "skill",
+      "version": "main",
+      "description": "Manage Lark Drive files, folders, permissions, comments, versions, and file transfers.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-drive",
+      "install": "git",
+      "tags": ["lark", "drive", "files", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-im",
+      "type": "skill",
+      "version": "main",
+      "description": "Send and search Lark messages, manage group chats, and work with interactive cards.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-im",
+      "install": "git",
+      "tags": ["lark", "messaging", "chat", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-mail",
+      "type": "skill",
+      "version": "main",
+      "description": "Draft, send, reply to, search, and organize Lark email.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-mail",
+      "install": "git",
+      "tags": ["lark", "email", "productivity", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-meeting",
+      "type": "skill",
+      "version": "main",
+      "description": "Search Lark video meeting recordings, transcripts, minutes, and live meeting context.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-meeting",
+      "install": "git",
+      "tags": ["lark", "meetings", "transcripts", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-slides",
+      "type": "skill",
+      "version": "main",
+      "description": "Create presentations and read or edit individual Lark slide pages.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-slides",
+      "install": "git",
+      "tags": ["lark", "presentations", "slides", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-shared",
+      "type": "skill",
+      "version": "main",
+      "description": "Configure lark-cli authentication, user or bot identity, permission scopes, and authorization.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-shared",
+      "install": "git",
+      "tags": ["lark", "authentication", "permissions", "cli"],
+      "license": "MIT"
     }
   ]
 }
