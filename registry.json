@@ -2312,6 +2312,17 @@
       "install": "git",
       "tags": ["skills", "engineering", "testing", "ci-cd", "debugging", "performance"],
       "license": "MIT"
+    },
+    {
+      "name": "bestdeejay-agent-skills",
+      "type": "skill-pack",
+      "version": "main",
+      "description": "60 autonomous agent skills across code, data, media, repos, and social tasks with manifests.",
+      "author": "bestdeejay-design",
+      "repo": "https://github.com/bestdeejay-design/agent-skills",
+      "install": "git",
+      "tags": ["skills", "agents", "code", "data", "media", "automation"],
+      "license": "MIT"
     }
   ]
 }
