@@ -1333,6 +1333,114 @@
       "install": "git",
       "tags": ["lark", "authentication", "permissions", "cli"],
       "license": "MIT"
+    },
+    {
+      "name": "lark-approval",
+      "type": "skill",
+      "version": "main",
+      "description": "Review, search, and initiate Lark approval requests and handle approval workflows.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-approval",
+      "install": "git",
+      "tags": ["lark", "approvals", "workflow", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-contact",
+      "type": "skill",
+      "version": "main",
+      "description": "Resolve Lark users by name or email and look up accessible contact and profile information.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-contact",
+      "install": "git",
+      "tags": ["lark", "contacts", "directory", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-event",
+      "type": "skill",
+      "version": "main",
+      "description": "Consume Lark real-time events as streams for bots, subscribers, and webhook workflows.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-event",
+      "install": "git",
+      "tags": ["lark", "events", "streaming", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-openapi-explorer",
+      "type": "skill",
+      "version": "main",
+      "description": "Find and use native Lark OpenAPI endpoints not yet covered by lark-cli commands.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-openapi-explorer",
+      "install": "git",
+      "tags": ["lark", "api", "openapi", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-wiki",
+      "type": "skill",
+      "version": "main",
+      "description": "Manage Lark knowledge spaces, members, document nodes, and shortcuts.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-wiki",
+      "install": "git",
+      "tags": ["lark", "wiki", "knowledge-base", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-whiteboard",
+      "type": "skill",
+      "version": "main",
+      "description": "Export, inspect, and update Lark document whiteboards and their node structures.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-whiteboard",
+      "install": "git",
+      "tags": ["lark", "whiteboard", "documents", "cli"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-workflow-standup-report",
+      "type": "skill",
+      "version": "main",
+      "description": "Summarize a date's Lark calendar agenda and outstanding tasks into a standup report.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-workflow-standup-report",
+      "install": "git",
+      "tags": ["lark", "standup", "calendar", "tasks"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-workflow-meeting-summary",
+      "type": "skill",
+      "version": "main",
+      "description": "Collect Lark meeting notes across a date range and produce a structured summary report.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-workflow-meeting-summary",
+      "install": "git",
+      "tags": ["lark", "meetings", "summaries", "workflow"],
+      "license": "MIT"
+    },
+    {
+      "name": "lark-markdown",
+      "type": "skill",
+      "version": "main",
+      "description": "Create, upload, edit, and compare native Markdown files stored in Lark.",
+      "author": "LarkSuite",
+      "repo": "https://github.com/larksuite/cli",
+      "path": "skills/lark-markdown",
+      "install": "git",
+      "tags": ["lark", "markdown", "documents", "cli"],
+      "license": "MIT"
     }
   ]
 }
