@@ -889,6 +889,126 @@
       "install": "git",
       "tags": ["mobile", "design", "react-native", "ui"],
       "license": "MIT"
+    },
+    {
+      "name": "ai-video-generation",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate AI videos through RunComfy and route prompts to suitable models and workflows.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "ai-video-generation",
+      "install": "git",
+      "tags": ["video", "ai", "generation", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "image-to-video",
+      "type": "skill",
+      "version": "main",
+      "description": "Animate still images using RunComfy video models selected for the intended motion and style.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "image-to-video",
+      "install": "git",
+      "tags": ["video", "image-to-video", "ai", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "kling-3-0",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate multi-shot videos with Kling 3.0 through the RunComfy CLI.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "kling-3-0",
+      "install": "git",
+      "tags": ["video", "kling", "generation", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "ai-image-generation",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate and edit images through RunComfy with model routing for common image workflows.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "ai-image-generation",
+      "install": "git",
+      "tags": ["images", "ai", "generation", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "ai-avatar-video",
+      "type": "skill",
+      "version": "main",
+      "description": "Create AI avatar, talking-head, and lip-sync videos using RunComfy models.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "ai-avatar-video",
+      "install": "git",
+      "tags": ["video", "avatar", "lip-sync", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "runcomfy-cli",
+      "type": "skill",
+      "version": "main",
+      "description": "Install, authenticate, discover, and run model workflows with the RunComfy command-line tool.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "runcomfy-cli",
+      "install": "git",
+      "tags": ["cli", "models", "automation", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "flux-2-klein",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate images with Flux 2 Klein on RunComfy using model-aware prompting guidance.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "flux-2-klein",
+      "install": "git",
+      "tags": ["images", "flux", "generation", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "gpt-image-2",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate and edit images with OpenAI GPT Image 2 through RunComfy.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "gpt-image-2",
+      "install": "git",
+      "tags": ["images", "openai", "generation", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "nano-banana-2",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate images with Google Nano Banana 2 on RunComfy using its supported prompting options.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "nano-banana-2",
+      "install": "git",
+      "tags": ["images", "google", "generation", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "seedance-v2",
+      "type": "skill",
+      "version": "main",
+      "description": "Create short cinematic videos with Seedance 2.0 Pro via RunComfy.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "seedance-v2",
+      "install": "git",
+      "tags": ["video", "seedance", "generation", "runcomfy"],
+      "license": "MIT"
     }
   ]
 }
