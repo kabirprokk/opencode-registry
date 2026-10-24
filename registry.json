@@ -1513,6 +1513,138 @@
       "install": "git",
       "tags": ["design", "frontend", "animation", "ui"],
       "license": "MIT"
+    },
+    {
+      "name": "neon",
+      "type": "skill",
+      "version": "main",
+      "description": "Choose and set up Neon backend services including Postgres, Auth, object storage, functions, and realtime.",
+      "author": "Neon",
+      "repo": "https://github.com/neondatabase/agent-skills",
+      "path": "skills/neon",
+      "install": "git",
+      "tags": ["neon", "postgres", "backend", "database"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "neon-auth",
+      "type": "skill",
+      "version": "main",
+      "description": "Add authentication with Neon Auth or integrate an existing identity provider.",
+      "author": "Neon",
+      "repo": "https://github.com/neondatabase/agent-skills",
+      "path": "skills/neon-auth",
+      "install": "git",
+      "tags": ["neon", "authentication", "identity", "postgres"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "neon-functions",
+      "type": "skill",
+      "version": "main",
+      "description": "Build long-running serverless Node.js functions deployed alongside a Neon database branch.",
+      "author": "Neon",
+      "repo": "https://github.com/neondatabase/agent-skills",
+      "path": "skills/neon-functions",
+      "install": "git",
+      "tags": ["neon", "serverless", "functions", "nodejs"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "neon-object-storage",
+      "type": "skill",
+      "version": "main",
+      "description": "Use Neon S3-compatible object storage that branches alongside database data.",
+      "author": "Neon",
+      "repo": "https://github.com/neondatabase/agent-skills",
+      "path": "skills/neon-object-storage",
+      "install": "git",
+      "tags": ["neon", "storage", "s3", "files"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "neon-postgres-branches",
+      "type": "skill",
+      "version": "main",
+      "description": "Create and manage Neon branches for isolated testing, migration checks, and CI/CD workflows.",
+      "author": "Neon",
+      "repo": "https://github.com/neondatabase/agent-skills",
+      "path": "skills/neon-postgres-branches",
+      "install": "git",
+      "tags": ["neon", "postgres", "branching", "testing"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "neon-realtime",
+      "type": "skill",
+      "version": "main",
+      "description": "Build reactive applications with live SQL queries and realtime state updates on Neon.",
+      "author": "Neon",
+      "repo": "https://github.com/neondatabase/agent-skills",
+      "path": "skills/neon-realtime",
+      "install": "git",
+      "tags": ["neon", "realtime", "postgres", "reactive"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "agents-sdk",
+      "type": "skill",
+      "version": "main",
+      "description": "Build, debug, and review applications using the Cloudflare Agents SDK.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/agents-sdk",
+      "install": "git",
+      "tags": ["cloudflare", "agents", "sdk", "workers"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "cf-cli",
+      "type": "skill",
+      "version": "main",
+      "description": "Use Cloudflare's cf CLI to discover commands and manage Workers and API resources.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/cf-cli",
+      "install": "git",
+      "tags": ["cloudflare", "cli", "workers", "devops"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "durable-objects",
+      "type": "skill",
+      "version": "main",
+      "description": "Build and review Cloudflare Durable Objects for persistent state and coordination.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/durable-objects",
+      "install": "git",
+      "tags": ["cloudflare", "durable-objects", "workers", "state"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "nextjs-on-cloudflare",
+      "type": "skill",
+      "version": "main",
+      "description": "Build, migrate, and deploy Next.js applications on Cloudflare Workers with vinext.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/nextjs-on-cloudflare",
+      "install": "git",
+      "tags": ["cloudflare", "nextjs", "workers", "deployment"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "workers-best-practices",
+      "type": "skill",
+      "version": "main",
+      "description": "Apply Cloudflare Workers best practices when writing, reviewing, or configuring Workers.",
+      "author": "Cloudflare",
+      "repo": "https://github.com/cloudflare/skills",
+      "path": "skills/workers-best-practices",
+      "install": "git",
+      "tags": ["cloudflare", "workers", "best-practices", "edge"],
+      "license": "Apache-2.0"
     }
   ]
 }
