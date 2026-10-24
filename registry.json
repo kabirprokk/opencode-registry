@@ -2257,6 +2257,17 @@
       "install": "git",
       "tags": ["gemini-cli", "tui", "testing", "automation"],
       "license": "Apache-2.0"
+    },
+    {
+      "name": "farmage-opencode-skills",
+      "type": "skill-pack",
+      "version": "main",
+      "description": "67 specialized AI skills plus 9 workflow commands for OpenCode, adapted from Claude Skills by jeffallan.",
+      "author": "farmage",
+      "repo": "https://github.com/farmage/opencode-skills",
+      "install": "git",
+      "tags": ["skills", "commands", "workflows", "opencode", "claude-skills"],
+      "license": "MIT"
     }
   ]
 }
