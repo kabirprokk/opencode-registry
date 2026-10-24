@@ -1489,6 +1489,30 @@
       "install": "git",
       "tags": ["lark", "skill-authoring", "api", "workflow"],
       "license": "MIT"
+    },
+    {
+      "name": "find-skills",
+      "type": "skill",
+      "version": "main",
+      "description": "Discover and install an existing agent skill when users ask how to do something or extend their setup.",
+      "author": "Vercel",
+      "repo": "https://github.com/vercel-labs/skills",
+      "path": "skills/find-skills",
+      "install": "git",
+      "tags": ["discovery", "skills", "installation", "vercel"],
+      "license": "MIT"
+    },
+    {
+      "name": "emil-design-eng",
+      "type": "skill",
+      "version": "main",
+      "description": "Apply practical guidance on UI polish, component design, animation, and product details.",
+      "author": "emilkowalski",
+      "repo": "https://github.com/emilkowalski/skills",
+      "path": "skills/emil-design-eng",
+      "install": "git",
+      "tags": ["design", "frontend", "animation", "ui"],
+      "license": "MIT"
     }
   ]
 }
