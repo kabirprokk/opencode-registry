@@ -2301,6 +2301,17 @@
       "install": "git",
       "tags": ["skills", "web-design", "image-generation", "knowledge", "agents"],
       "license": "MIT"
+    },
+    {
+      "name": "addyosmani-agent-skills",
+      "type": "skill-pack",
+      "version": "main",
+      "description": "Production-grade engineering skills: API design, testing, CI/CD, debugging, performance, and security.",
+      "author": "addyosmani",
+      "repo": "https://github.com/addyosmani/agent-skills",
+      "install": "git",
+      "tags": ["skills", "engineering", "testing", "ci-cd", "debugging", "performance"],
+      "license": "MIT"
     }
   ]
 }
