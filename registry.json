@@ -853,6 +853,42 @@
       "install": "git",
       "tags": ["git", "hooks", "quality"],
       "license": "MIT"
+    },
+    {
+      "name": "agent-browser",
+      "type": "skill",
+      "version": "main",
+      "description": "Automate browser navigation, forms, clicks, screenshots, data extraction, and web-app testing.",
+      "author": "Vercel",
+      "repo": "https://github.com/vercel-labs/agent-browser",
+      "path": "skills/agent-browser",
+      "install": "git",
+      "tags": ["browser", "automation", "testing", "web"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "reddit-automation",
+      "type": "skill",
+      "version": "main",
+      "description": "Find relevant Reddit discussions and draft candid, genuinely helpful responses.",
+      "author": "flowkit-labs",
+      "repo": "https://github.com/flowkit-labs/skills",
+      "path": "reddit-automation",
+      "install": "git",
+      "tags": ["reddit", "research", "community", "marketing"],
+      "license": "MIT"
+    },
+    {
+      "name": "design-mobile-apps",
+      "type": "skill",
+      "version": "main",
+      "description": "Design mobile app screens with Sleek and implement them in React Native or HTML.",
+      "author": "designed-by-ai",
+      "repo": "https://github.com/designed-by-ai/skills",
+      "path": "skills/design-mobile-apps",
+      "install": "git",
+      "tags": ["mobile", "design", "react-native", "ui"],
+      "license": "MIT"
     }
   ]
 }
