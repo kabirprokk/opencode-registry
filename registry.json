@@ -2089,6 +2089,42 @@
       "install": "git",
       "tags": ["openai", "testing", "coverage", "python"],
       "license": "MIT"
+    },
+    {
+      "name": "openai-knowledge",
+      "type": "skill",
+      "version": "main",
+      "description": "Retrieve authoritative OpenAI API and platform documentation for current integration evidence.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/openai-knowledge",
+      "install": "git",
+      "tags": ["openai", "documentation", "research", "api"],
+      "license": "MIT"
+    },
+    {
+      "name": "runtime-behavior-probe",
+      "type": "skill",
+      "version": "main",
+      "description": "Plan controlled runtime probes to investigate Python SDK behavior, gated by explicit approval.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/runtime-behavior-probe",
+      "install": "git",
+      "tags": ["openai", "runtime", "debugging", "testing"],
+      "license": "MIT"
+    },
+    {
+      "name": "release-candidate-prep",
+      "type": "skill",
+      "version": "main",
+      "description": "Prepare a Python SDK release candidate in an isolated worktree for a specified version.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/release-candidate-prep",
+      "install": "git",
+      "tags": ["openai", "release", "worktrees", "python"],
+      "license": "MIT"
     }
   ]
 }
