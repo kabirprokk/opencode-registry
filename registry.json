@@ -2125,6 +2125,138 @@
       "install": "git",
       "tags": ["openai", "release", "worktrees", "python"],
       "license": "MIT"
+    },
+    {
+      "name": "async-pr-review",
+      "type": "skill",
+      "version": "main",
+      "description": "Start background pull request reviews and check the status of asynchronous review jobs.",
+      "author": "Google",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "path": ".gemini/skills/async-pr-review",
+      "install": "git",
+      "tags": ["gemini-cli", "github", "pull-requests", "review"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "behavioral-evals",
+      "type": "skill",
+      "version": "main",
+      "description": "Create and run behavioral evaluations for agent decisions, prompts, and regression tests.",
+      "author": "Google",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "path": ".gemini/skills/behavioral-evals",
+      "install": "git",
+      "tags": ["gemini-cli", "evaluation", "agents", "testing"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "ci",
+      "type": "skill",
+      "version": "main",
+      "description": "Monitor Gemini CLI GitHub Actions and reproduce CI failures with local verification.",
+      "author": "Google",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "path": ".gemini/skills/ci",
+      "install": "git",
+      "tags": ["gemini-cli", "ci", "github-actions", "debugging"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "code-reviewer",
+      "type": "skill",
+      "version": "main",
+      "description": "Review local changes or remote pull requests for correctness, maintainability, and project standards.",
+      "author": "Google",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "path": ".gemini/skills/code-reviewer",
+      "install": "git",
+      "tags": ["gemini-cli", "code-review", "quality", "github"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "docs-changelog",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate and format release changelog files from a target version and raw change notes.",
+      "author": "Google",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "path": ".gemini/skills/docs-changelog",
+      "install": "git",
+      "tags": ["gemini-cli", "changelog", "release", "documentation"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "docs-writer",
+      "type": "skill",
+      "version": "main",
+      "description": "Write, review, and edit documentation and Markdown files for Gemini CLI projects.",
+      "author": "Google",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "path": ".gemini/skills/docs-writer",
+      "install": "git",
+      "tags": ["gemini-cli", "documentation", "writing", "markdown"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "github-issue-creator",
+      "type": "skill",
+      "version": "main",
+      "description": "Create GitHub issues using repository templates, issue types, and labels.",
+      "author": "Google",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "path": ".gemini/skills/github-issue-creator",
+      "install": "git",
+      "tags": ["gemini-cli", "github", "issues", "workflow"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "pr-address-comments",
+      "type": "skill",
+      "version": "main",
+      "description": "Resolve GitHub pull request review comments for the current Gemini CLI branch.",
+      "author": "Google",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "path": ".gemini/skills/pr-address-comments",
+      "install": "git",
+      "tags": ["gemini-cli", "github", "pull-requests", "review"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "pr-creator",
+      "type": "skill",
+      "version": "main",
+      "description": "Create Gemini CLI pull requests that follow repository templates and contribution standards.",
+      "author": "Google",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "path": ".gemini/skills/pr-creator",
+      "install": "git",
+      "tags": ["gemini-cli", "github", "pull-requests", "workflow"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "review-duplication",
+      "type": "skill",
+      "version": "main",
+      "description": "Look for duplicated functionality and missed reusable utilities during code review.",
+      "author": "Google",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "path": ".gemini/skills/review-duplication",
+      "install": "git",
+      "tags": ["gemini-cli", "code-review", "duplication", "architecture"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "tui-tester",
+      "type": "skill",
+      "version": "main",
+      "description": "Test terminal UI behavior and visual output with automated interaction workflows.",
+      "author": "Google",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "path": ".gemini/skills/tui-tester",
+      "install": "git",
+      "tags": ["gemini-cli", "tui", "testing", "automation"],
+      "license": "Apache-2.0"
     }
   ]
 }
