@@ -1009,6 +1009,126 @@
       "install": "git",
       "tags": ["video", "seedance", "generation", "runcomfy"],
       "license": "MIT"
+    },
+    {
+      "name": "ai-music",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate AI music with RunComfy models selected for track length, style, vocals, or editing needs.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "ai-music",
+      "install": "git",
+      "tags": ["music", "audio", "generation", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "controlnet-pose",
+      "type": "skill",
+      "version": "main",
+      "description": "Use pose conditioning and reference motion for RunComfy image or video generation.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "controlnet-pose",
+      "install": "git",
+      "tags": ["pose", "controlnet", "video", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "face-swap",
+      "type": "skill",
+      "version": "main",
+      "description": "Swap a face or character in images and video using suitable RunComfy models.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "face-swap",
+      "install": "git",
+      "tags": ["images", "video", "face-swap", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "flux-kontext",
+      "type": "skill",
+      "version": "main",
+      "description": "Edit images with Flux Kontext Pro on RunComfy using model-specific prompt guidance.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "flux-kontext",
+      "install": "git",
+      "tags": ["images", "editing", "flux", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "gpt-image-edit",
+      "type": "skill",
+      "version": "main",
+      "description": "Edit images with OpenAI GPT Image 2 through RunComfy, including reference-based edits.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "gpt-image-edit",
+      "install": "git",
+      "tags": ["images", "editing", "openai", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "happyhorse-1-0",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate text-to-video with HappyHorse 1.0 through RunComfy.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "happyhorse-1-0",
+      "install": "git",
+      "tags": ["video", "generation", "happyhorse", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "image-edit",
+      "type": "skill",
+      "version": "main",
+      "description": "Route image-editing requests to an appropriate image-edit model in the RunComfy catalog.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "image-edit",
+      "install": "git",
+      "tags": ["images", "editing", "ai", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "image-inpainting",
+      "type": "skill",
+      "version": "main",
+      "description": "Perform mask-driven image inpainting and controlled local image edits with RunComfy.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "image-inpainting",
+      "install": "git",
+      "tags": ["images", "inpainting", "editing", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "image-outpainting",
+      "type": "skill",
+      "version": "main",
+      "description": "Extend an image canvas or change its aspect ratio while preserving existing content with RunComfy.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "image-outpainting",
+      "install": "git",
+      "tags": ["images", "outpainting", "editing", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "lipsync",
+      "type": "skill",
+      "version": "main",
+      "description": "Synchronize speech to a face or avatar in video using RunComfy audio and video models.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "lipsync",
+      "install": "git",
+      "tags": ["video", "audio", "lip-sync", "runcomfy"],
+      "license": "MIT"
     }
   ]
 }
