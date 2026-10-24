@@ -313,6 +313,126 @@
       "install": "git",
       "tags": ["video", "animation", "migration", "hyperframes"],
       "license": "Apache-2.0"
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "type": "skill",
+      "version": "main",
+      "description": "Split independent work into parallel agent tasks without creating shared-state conflicts.",
+      "author": "obra",
+      "repo": "https://github.com/obra/superpowers",
+      "path": "skills/dispatching-parallel-agents",
+      "install": "git",
+      "tags": ["agents", "parallelism", "workflow"],
+      "license": "MIT"
+    },
+    {
+      "name": "executing-plans",
+      "type": "skill",
+      "version": "main",
+      "description": "Execute an approved implementation plan step by step and verify the work as it progresses.",
+      "author": "obra",
+      "repo": "https://github.com/obra/superpowers",
+      "path": "skills/executing-plans",
+      "install": "git",
+      "tags": ["planning", "implementation", "workflow"],
+      "license": "MIT"
+    },
+    {
+      "name": "using-git-worktrees",
+      "type": "skill",
+      "version": "main",
+      "description": "Create isolated Git worktrees for feature work and implementation plans.",
+      "author": "obra",
+      "repo": "https://github.com/obra/superpowers",
+      "path": "skills/using-git-worktrees",
+      "install": "git",
+      "tags": ["git", "worktrees", "workflow"],
+      "license": "MIT"
+    },
+    {
+      "name": "writing-skills",
+      "type": "skill",
+      "version": "main",
+      "description": "Create, revise, and verify reusable agent skills before releasing them.",
+      "author": "obra",
+      "repo": "https://github.com/obra/superpowers",
+      "path": "skills/writing-skills",
+      "install": "git",
+      "tags": ["skills", "authoring", "documentation"],
+      "license": "MIT"
+    },
+    {
+      "name": "domain-modeling",
+      "type": "skill",
+      "version": "main",
+      "description": "Clarify domain terminology and maintain a project's glossary and architecture decision records.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/domain-modeling",
+      "install": "git",
+      "tags": ["domain-modeling", "architecture", "documentation"],
+      "license": "MIT"
+    },
+    {
+      "name": "implement",
+      "type": "skill",
+      "version": "main",
+      "description": "Implement scoped work from an approved specification or set of tickets.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/implement",
+      "install": "git",
+      "tags": ["implementation", "specification", "engineering"],
+      "license": "MIT"
+    },
+    {
+      "name": "research",
+      "type": "skill",
+      "version": "main",
+      "description": "Research questions using high-trust primary sources and capture findings in project documentation.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/research",
+      "install": "git",
+      "tags": ["research", "documentation", "sources"],
+      "license": "MIT"
+    },
+    {
+      "name": "prisma-client-api",
+      "type": "skill",
+      "version": "7.9.1",
+      "description": "Reference Prisma Client models, queries, filters, CRUD operations, and client methods.",
+      "author": "prisma",
+      "repo": "https://github.com/prisma/skills",
+      "path": "prisma-client-api",
+      "install": "git",
+      "tags": ["prisma", "database", "orm", "queries"],
+      "license": "MIT"
+    },
+    {
+      "name": "prisma-orm-setup",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Set up Prisma ORM, connect supported databases, and troubleshoot existing Prisma applications.",
+      "author": "prisma",
+      "repo": "https://github.com/prisma/skills",
+      "path": "prisma-orm-setup",
+      "install": "git",
+      "tags": ["prisma", "database", "setup", "orm"],
+      "license": "MIT"
+    },
+    {
+      "name": "google-agents-cli-adk-code",
+      "type": "skill",
+      "version": "1.11.0",
+      "description": "Build Google Agent Development Kit agents with tools, callbacks, orchestration, and state management.",
+      "author": "Google",
+      "repo": "https://github.com/google/agents-cli",
+      "path": "skills/google-agents-cli-adk-code",
+      "install": "git",
+      "tags": ["google", "agents", "adk", "cloud"],
+      "license": "Apache-2.0"
     }
   ]
 }
