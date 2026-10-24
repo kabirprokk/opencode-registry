@@ -1129,6 +1129,78 @@
       "install": "git",
       "tags": ["video", "audio", "lip-sync", "runcomfy"],
       "license": "MIT"
+    },
+    {
+      "name": "video-edit",
+      "type": "skill",
+      "version": "main",
+      "description": "Edit existing video with model-aware routing for restyling, background changes, and motion transfer.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "video-edit",
+      "install": "git",
+      "tags": ["video", "editing", "ai", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "video-extend",
+      "type": "skill",
+      "version": "main",
+      "description": "Continue an existing video clip with consistent motion, lighting, and subject identity.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "video-extend",
+      "install": "git",
+      "tags": ["video", "extension", "generation", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "video-inpainting",
+      "type": "skill",
+      "version": "main",
+      "description": "Edit or remove regions across video frames with RunComfy video models.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "video-inpainting",
+      "install": "git",
+      "tags": ["video", "inpainting", "editing", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "video-outpainting",
+      "type": "skill",
+      "version": "main",
+      "description": "Expand a video's spatial canvas or aspect ratio while retaining its central action.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "video-outpainting",
+      "install": "git",
+      "tags": ["video", "outpainting", "editing", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "wan-2-7",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate videos with Wan 2.7 through RunComfy using model-specific prompt and reference guidance.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "wan-2-7",
+      "install": "git",
+      "tags": ["video", "wan", "generation", "runcomfy"],
+      "license": "MIT"
+    },
+    {
+      "name": "ace-step",
+      "type": "skill",
+      "version": "main",
+      "description": "Generate or edit music with ACE Step, including audio inpainting and track extension.",
+      "author": "prime-skills",
+      "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
+      "path": "ace-step",
+      "install": "git",
+      "tags": ["music", "audio", "editing", "runcomfy"],
+      "license": "MIT"
     }
   ]
 }
