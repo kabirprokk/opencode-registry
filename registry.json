@@ -183,18 +183,6 @@
       "license": "Apache-2.0"
     },
     {
-      "name": "captions-overlay",
-      "type": "skill",
-      "version": "main",
-      "description": "Design caption overlays and subtitles for HyperFrames videos without shifting the composition.",
-      "author": "heygen-com",
-      "repo": "https://github.com/heygen-com/hyperframes",
-      "path": ".agents/skills/captions-overlay",
-      "install": "git",
-      "tags": ["video", "captions", "subtitles", "hyperframes"],
-      "license": "Apache-2.0"
-    },
-    {
       "name": "writing-plans",
       "type": "skill",
       "version": "main",
@@ -288,18 +276,6 @@
       "path": "skills/media-use",
       "install": "git",
       "tags": ["video", "media", "audio", "hyperframes"],
-      "license": "Apache-2.0"
-    },
-    {
-      "name": "changelog-video",
-      "type": "skill",
-      "version": "main",
-      "description": "Turn a Markdown changelog into a short branded video using HyperFrames.",
-      "author": "heygen-com",
-      "repo": "https://github.com/heygen-com/hyperframes",
-      "path": ".agents/skills/changelog-video",
-      "install": "git",
-      "tags": ["video", "changelog", "community"],
       "license": "Apache-2.0"
     },
     {
@@ -672,6 +648,126 @@
       "path": "skills/entra-agent-id",
       "install": "git",
       "tags": ["microsoft", "entra", "identity", "agents"],
+      "license": "MIT"
+    },
+    {
+      "name": "hyperframes",
+      "type": "skill",
+      "version": "main",
+      "description": "Create, edit, animate, and render videos with HyperFrames, including launch films and vertical clips.",
+      "author": "heygen-com",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "path": "skills/hyperframes",
+      "install": "git",
+      "tags": ["video", "animation", "rendering", "hyperframes"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "figma-to-hyperframes",
+      "type": "skill",
+      "version": "main",
+      "description": "Use Figma designs, brand assets, and components as sources for HyperFrames videos.",
+      "author": "heygen-com",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "path": "skills/figma",
+      "install": "git",
+      "tags": ["figma", "video", "design", "hyperframes"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "hyperframes-registry",
+      "type": "skill",
+      "version": "main",
+      "description": "Browse and install reusable HyperFrames blocks for transitions, titles, overlays, charts, and motion.",
+      "author": "heygen-com",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "path": "skills/hyperframes-registry",
+      "install": "git",
+      "tags": ["video", "components", "assets", "hyperframes"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "prototype",
+      "type": "skill",
+      "version": "main",
+      "description": "Build a throwaway prototype to test a design question, UI idea, or state model.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/prototype",
+      "install": "git",
+      "tags": ["prototyping", "design", "engineering"],
+      "license": "MIT"
+    },
+    {
+      "name": "triage",
+      "type": "skill",
+      "version": "main",
+      "description": "Classify and verify issues or external pull requests and prepare actionable briefs.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/triage",
+      "install": "git",
+      "tags": ["triage", "issues", "pull-requests"],
+      "license": "MIT"
+    },
+    {
+      "name": "pr",
+      "type": "skill",
+      "version": "main",
+      "description": "Draft concise, useful pull request descriptions for code changes.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/pr",
+      "install": "git",
+      "tags": ["git", "pull-request", "documentation"],
+      "license": "MIT"
+    },
+    {
+      "name": "writing-for-agents",
+      "type": "skill",
+      "version": "main",
+      "description": "Write clear project docs and instructions designed for agents to use effectively.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/productivity/writing-for-agents",
+      "install": "git",
+      "tags": ["documentation", "agents", "writing"],
+      "license": "MIT"
+    },
+    {
+      "name": "retro",
+      "type": "skill",
+      "version": "main",
+      "description": "Run a retrospective on a coding session and capture lessons for future work.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/engineering/retro",
+      "install": "git",
+      "tags": ["retrospective", "workflow", "learning"],
+      "license": "MIT"
+    },
+    {
+      "name": "handoff",
+      "type": "skill",
+      "version": "main",
+      "description": "Create a concise handoff document so another agent can resume the current work.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/productivity/handoff",
+      "install": "git",
+      "tags": ["handoff", "agents", "continuity"],
+      "license": "MIT"
+    },
+    {
+      "name": "teach",
+      "type": "skill",
+      "version": "main",
+      "description": "Teach a user a concept or practical skill within the current project workspace.",
+      "author": "mattpocock",
+      "repo": "https://github.com/mattpocock/skills",
+      "path": "skills/productivity/teach",
+      "install": "git",
+      "tags": ["learning", "teaching", "productivity"],
       "license": "MIT"
     }
   ]
