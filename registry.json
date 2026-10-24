@@ -553,6 +553,126 @@
       "install": "git",
       "tags": ["prisma", "database", "drivers", "engineering"],
       "license": "MIT"
+    },
+    {
+      "name": "microsoft-foundry",
+      "type": "skill",
+      "version": "main",
+      "description": "Build, deploy, evaluate, and operate Microsoft Foundry agents, models, and resources.",
+      "author": "Microsoft",
+      "repo": "https://github.com/microsoft/azure-skills",
+      "path": "skills/microsoft-foundry",
+      "install": "git",
+      "tags": ["microsoft", "azure", "agents", "ai"],
+      "license": "MIT"
+    },
+    {
+      "name": "azure-compute",
+      "type": "skill",
+      "version": "main",
+      "description": "Plan and provision Azure virtual machines and scale sets, with sizing, quota, and cost guidance.",
+      "author": "Microsoft",
+      "repo": "https://github.com/microsoft/azure-skills",
+      "path": "skills/azure-compute",
+      "install": "git",
+      "tags": ["azure", "compute", "cloud", "infrastructure"],
+      "license": "MIT"
+    },
+    {
+      "name": "azure-cloud-migrate",
+      "type": "skill",
+      "version": "main",
+      "description": "Assess and migrate workloads from other cloud platforms to Azure services.",
+      "author": "Microsoft",
+      "repo": "https://github.com/microsoft/azure-skills",
+      "path": "skills/azure-cloud-migrate",
+      "install": "git",
+      "tags": ["azure", "migration", "cloud", "modernization"],
+      "license": "MIT"
+    },
+    {
+      "name": "azure-quotas",
+      "type": "skill",
+      "version": "main",
+      "description": "Check Azure service quotas, regional capacity, usage, and deployment limits.",
+      "author": "Microsoft",
+      "repo": "https://github.com/microsoft/azure-skills",
+      "path": "skills/azure-quotas",
+      "install": "git",
+      "tags": ["azure", "quotas", "capacity", "cloud"],
+      "license": "MIT"
+    },
+    {
+      "name": "azure-upgrade",
+      "type": "skill",
+      "version": "main",
+      "description": "Assess Azure workload plan upgrades and modernize selected Azure SDK dependencies.",
+      "author": "Microsoft",
+      "repo": "https://github.com/microsoft/azure-skills",
+      "path": "skills/azure-upgrade",
+      "install": "git",
+      "tags": ["azure", "upgrade", "modernization", "cloud"],
+      "license": "MIT"
+    },
+    {
+      "name": "azure-enterprise-infra-planner",
+      "type": "skill",
+      "version": "main",
+      "description": "Plan enterprise Azure infrastructure, networking, identity, security, and deployment templates.",
+      "author": "Microsoft",
+      "repo": "https://github.com/microsoft/azure-skills",
+      "path": "skills/azure-enterprise-infra-planner",
+      "install": "git",
+      "tags": ["azure", "infrastructure", "terraform", "bicep"],
+      "license": "MIT"
+    },
+    {
+      "name": "azure-kubernetes",
+      "type": "skill",
+      "version": "main",
+      "description": "Design, provision, secure, and operate Azure Kubernetes Service clusters.",
+      "author": "Microsoft",
+      "repo": "https://github.com/microsoft/azure-skills",
+      "path": "skills/azure-kubernetes",
+      "install": "git",
+      "tags": ["azure", "kubernetes", "aks", "containers"],
+      "license": "MIT"
+    },
+    {
+      "name": "azure-reliability",
+      "type": "skill",
+      "version": "main",
+      "description": "Assess and improve availability, failover, and reliability for Azure App Service and Functions.",
+      "author": "Microsoft",
+      "repo": "https://github.com/microsoft/azure-skills",
+      "path": "skills/azure-reliability",
+      "install": "git",
+      "tags": ["azure", "reliability", "availability", "disaster-recovery"],
+      "license": "MIT"
+    },
+    {
+      "name": "python-appservice-deploy",
+      "type": "skill",
+      "version": "main",
+      "description": "Deploy Flask, Django, or FastAPI applications to Azure App Service on Linux.",
+      "author": "Microsoft",
+      "repo": "https://github.com/microsoft/azure-skills",
+      "path": "skills/python-appservice-deploy",
+      "install": "git",
+      "tags": ["python", "azure", "deployment", "appservice"],
+      "license": "MIT"
+    },
+    {
+      "name": "entra-agent-id",
+      "type": "skill",
+      "version": "main",
+      "description": "Configure Microsoft Entra agent identities and OAuth token exchange for agent applications.",
+      "author": "Microsoft",
+      "repo": "https://github.com/microsoft/azure-skills",
+      "path": "skills/entra-agent-id",
+      "install": "git",
+      "tags": ["microsoft", "entra", "identity", "agents"],
+      "license": "MIT"
     }
   ]
 }
