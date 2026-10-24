@@ -1957,6 +1957,138 @@
       "install": "git",
       "tags": ["google", "adk", "documentation", "testing"],
       "license": "Apache-2.0"
+    },
+    {
+      "name": "code-change-verification",
+      "type": "skill",
+      "version": "main",
+      "description": "Run the required formatting, lint, type, and test checks after OpenAI Agents SDK changes pass review.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/code-change-verification",
+      "install": "git",
+      "tags": ["openai", "agents-sdk", "verification", "testing"],
+      "license": "MIT"
+    },
+    {
+      "name": "docs-sync",
+      "type": "skill",
+      "version": "main",
+      "description": "Audit and update Python SDK documentation against the requested implementation scope.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/docs-sync",
+      "install": "git",
+      "tags": ["openai", "agents-sdk", "documentation", "python"],
+      "license": "MIT"
+    },
+    {
+      "name": "examples-run-analysis",
+      "type": "skill",
+      "version": "main",
+      "description": "Analyze logs and source from a completed manual run of OpenAI Agents SDK examples.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/examples-run-analysis",
+      "install": "git",
+      "tags": ["openai", "agents-sdk", "examples", "analysis"],
+      "license": "MIT"
+    },
+    {
+      "name": "final-release-review",
+      "type": "skill",
+      "version": "main",
+      "description": "Assess a Python SDK release candidate against the previous release and identify ship blockers.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/final-release-review",
+      "install": "git",
+      "tags": ["openai", "release", "review", "python"],
+      "license": "MIT"
+    },
+    {
+      "name": "implementation-final-review",
+      "type": "skill",
+      "version": "main",
+      "description": "Independently review completed Python SDK implementation changes before final verification.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/implementation-final-review",
+      "install": "git",
+      "tags": ["openai", "implementation", "review", "python"],
+      "license": "MIT"
+    },
+    {
+      "name": "implementation-kickoff",
+      "type": "skill",
+      "version": "main",
+      "description": "Carry an OpenAI Agents SDK implementation through isolated worktree execution and handoff.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/implementation-kickoff",
+      "install": "git",
+      "tags": ["openai", "implementation", "worktrees", "workflow"],
+      "license": "MIT"
+    },
+    {
+      "name": "implementation-strategy",
+      "type": "skill",
+      "version": "main",
+      "description": "Choose supported scope and compatibility boundaries for Python SDK behavior changes.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/implementation-strategy",
+      "install": "git",
+      "tags": ["openai", "implementation", "compatibility", "planning"],
+      "license": "MIT"
+    },
+    {
+      "name": "maintainer-review",
+      "type": "skill",
+      "version": "main",
+      "description": "Evaluate GitHub issues and pull requests for demonstrated need, alternatives, and maintainer action.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/maintainer-review",
+      "install": "git",
+      "tags": ["openai", "github", "issues", "review"],
+      "license": "MIT"
+    },
+    {
+      "name": "pr-draft-summary",
+      "type": "skill",
+      "version": "main",
+      "description": "Prepare a pull request title, description, and branch suggestion after implementation work.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/pr-draft-summary",
+      "install": "git",
+      "tags": ["openai", "github", "pull-request", "writing"],
+      "license": "MIT"
+    },
+    {
+      "name": "sensitive-logging-audit",
+      "type": "skill",
+      "version": "main",
+      "description": "Audit Python SDK diagnostics and telemetry for exposure of sensitive data.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/sensitive-logging-audit",
+      "install": "git",
+      "tags": ["openai", "security", "privacy", "logging"],
+      "license": "MIT"
+    },
+    {
+      "name": "test-coverage-improver",
+      "type": "skill",
+      "version": "main",
+      "description": "Measure Python SDK test coverage and address identified coverage gaps.",
+      "author": "OpenAI",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "path": ".agents/skills/test-coverage-improver",
+      "install": "git",
+      "tags": ["openai", "testing", "coverage", "python"],
+      "license": "MIT"
     }
   ]
 }
