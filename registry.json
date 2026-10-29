@@ -3512,6 +3512,193 @@
         "tools"
       ],
       "license": "MIT"
+    },
+    {
+      "name": "frontend-ui-engineering",
+      "type": "skill",
+      "version": "main",
+      "description": "Build production-quality, accessible, responsive user interfaces, components, layouts, and application state.",
+      "author": "addyosmani",
+      "repo": "https://github.com/addyosmani/agent-skills",
+      "path": "skills/frontend-ui-engineering",
+      "install": "git",
+      "tags": [
+        "frontend",
+        "ui",
+        "accessibility",
+        "design"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "code-simplification",
+      "type": "skill",
+      "version": "main",
+      "description": "Refactor working code for clarity and maintainability without changing its behavior.",
+      "author": "addyosmani",
+      "repo": "https://github.com/addyosmani/agent-skills",
+      "path": "skills/code-simplification",
+      "install": "git",
+      "tags": [
+        "refactoring",
+        "code-quality",
+        "maintainability"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "api-and-interface-design",
+      "type": "skill",
+      "version": "main",
+      "description": "Design stable APIs, module boundaries, and contracts between frontend and backend systems.",
+      "author": "addyosmani",
+      "repo": "https://github.com/addyosmani/agent-skills",
+      "path": "skills/api-and-interface-design",
+      "install": "git",
+      "tags": [
+        "api",
+        "architecture",
+        "design",
+        "contracts"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "browser-testing-with-devtools",
+      "type": "skill",
+      "version": "main",
+      "description": "Test web apps in a real browser with Chrome DevTools MCP, including DOM, console, network, and performance checks.",
+      "author": "addyosmani",
+      "repo": "https://github.com/addyosmani/agent-skills",
+      "path": "skills/browser-testing-with-devtools",
+      "install": "git",
+      "tags": [
+        "browser",
+        "testing",
+        "debugging",
+        "frontend"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "security-and-hardening",
+      "type": "skill",
+      "version": "main",
+      "description": "Review and harden code handling untrusted input, authentication, data storage, integrations, and dependencies.",
+      "author": "addyosmani",
+      "repo": "https://github.com/addyosmani/agent-skills",
+      "path": "skills/security-and-hardening",
+      "install": "git",
+      "tags": [
+        "security",
+        "hardening",
+        "owasp",
+        "privacy"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "incremental-implementation",
+      "type": "skill",
+      "version": "main",
+      "description": "Deliver multi-file changes in thin, verifiable implementation slices.",
+      "author": "addyosmani",
+      "repo": "https://github.com/addyosmani/agent-skills",
+      "path": "skills/incremental-implementation",
+      "install": "git",
+      "tags": [
+        "implementation",
+        "workflow",
+        "testing",
+        "planning"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "documentation-and-adrs",
+      "type": "skill",
+      "version": "main",
+      "description": "Write architecture decision records and document decisions around APIs, features, and system design.",
+      "author": "addyosmani",
+      "repo": "https://github.com/addyosmani/agent-skills",
+      "path": "skills/documentation-and-adrs",
+      "install": "git",
+      "tags": [
+        "documentation",
+        "adr",
+        "architecture",
+        "writing"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "performance-optimization",
+      "type": "skill",
+      "version": "main",
+      "description": "Diagnose and improve application performance across frontend, backend, queries, and databases.",
+      "author": "addyosmani",
+      "repo": "https://github.com/addyosmani/agent-skills",
+      "path": "skills/performance-optimization",
+      "install": "git",
+      "tags": [
+        "performance",
+        "optimization",
+        "frontend",
+        "database"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "webapp-testing",
+      "type": "skill",
+      "version": "main",
+      "description": "Test local web applications with Playwright, including frontend behavior, screenshots, and browser logs.",
+      "author": "anthropics",
+      "repo": "https://github.com/anthropics/skills",
+      "path": "skills/webapp-testing",
+      "install": "git",
+      "tags": [
+        "web",
+        "testing",
+        "playwright",
+        "browser"
+      ],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "type": "skill",
+      "version": "main",
+      "description": "Build rich multi-component web artifacts with modern frontend technologies, React, Tailwind CSS, and shadcn/ui.",
+      "author": "anthropics",
+      "repo": "https://github.com/anthropics/skills",
+      "path": "skills/web-artifacts-builder",
+      "install": "git",
+      "tags": [
+        "frontend",
+        "web",
+        "react",
+        "ui",
+        "design"
+      ],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "theme-factory",
+      "type": "skill",
+      "version": "main",
+      "description": "Apply or create cohesive visual themes for slides, documents, reports, and web pages.",
+      "author": "anthropics",
+      "repo": "https://github.com/anthropics/skills",
+      "path": "skills/theme-factory",
+      "install": "git",
+      "tags": [
+        "design",
+        "visual-design",
+        "themes",
+        "frontend"
+      ],
+      "license": "Apache-2.0"
     }
   ]
 }
