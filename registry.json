@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "version": 1,
-  "updated": "2026-10-24",
+  "updated": "2026-10-29",
   "packages": [
     {
       "name": "osien-stack",
@@ -11,8 +11,16 @@
       "author": "kabirprokk",
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "install": "git",
-      "tags": ["mcp", "tools", "agents", "skills", "orchestration", "city-mode"],
-      "license": "MIT"
+      "tags": [
+        "mcp",
+        "tools",
+        "agents",
+        "skills",
+        "orchestration",
+        "city-mode"
+      ],
+      "license": "MIT",
+      "skill_count": 0
     },
     {
       "name": "caveman",
@@ -23,7 +31,11 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "skills/caveman",
       "install": "git",
-      "tags": ["tokens", "efficiency", "output"],
+      "tags": [
+        "tokens",
+        "efficiency",
+        "output"
+      ],
       "license": "MIT"
     },
     {
@@ -35,7 +47,12 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "skills/osien-3d-forge",
       "install": "git",
-      "tags": ["3d", "model", "mesh", "asset"],
+      "tags": [
+        "3d",
+        "model",
+        "mesh",
+        "asset"
+      ],
       "license": "MIT"
     },
     {
@@ -47,7 +64,11 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "skills/stop-slop",
       "install": "git",
-      "tags": ["writing", "prose", "cleanup"],
+      "tags": [
+        "writing",
+        "prose",
+        "cleanup"
+      ],
       "license": "MIT"
     },
     {
@@ -59,7 +80,11 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "skills/logic",
       "install": "git",
-      "tags": ["workflow", "parallelism", "safety"],
+      "tags": [
+        "workflow",
+        "parallelism",
+        "safety"
+      ],
       "license": "MIT"
     },
     {
@@ -71,7 +96,11 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "agents/ai-manager.md",
       "install": "git",
-      "tags": ["orchestration", "manager", "agents"],
+      "tags": [
+        "orchestration",
+        "manager",
+        "agents"
+      ],
       "license": "MIT"
     },
     {
@@ -83,7 +112,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/brainstorming",
       "install": "git",
-      "tags": ["planning", "ideation", "design"],
+      "tags": [
+        "planning",
+        "ideation",
+        "design"
+      ],
       "license": "MIT"
     },
     {
@@ -95,7 +128,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/systematic-debugging",
       "install": "git",
-      "tags": ["debugging", "testing", "workflow"],
+      "tags": [
+        "debugging",
+        "testing",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -107,7 +144,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/test-driven-development",
       "install": "git",
-      "tags": ["testing", "tdd", "workflow"],
+      "tags": [
+        "testing",
+        "tdd",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -119,7 +160,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/code-review",
       "install": "git",
-      "tags": ["review", "quality", "engineering"],
+      "tags": [
+        "review",
+        "quality",
+        "engineering"
+      ],
       "license": "MIT"
     },
     {
@@ -131,7 +176,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/grill-with-docs",
       "install": "git",
-      "tags": ["planning", "documentation", "design"],
+      "tags": [
+        "planning",
+        "documentation",
+        "design"
+      ],
       "license": "MIT"
     },
     {
@@ -143,7 +192,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/productivity/grill-me",
       "install": "git",
-      "tags": ["planning", "clarification", "productivity"],
+      "tags": [
+        "planning",
+        "clarification",
+        "productivity"
+      ],
       "license": "MIT"
     },
     {
@@ -155,7 +208,12 @@
       "repo": "https://github.com/supabase/agent-skills",
       "path": "skills/supabase-postgres-best-practices",
       "install": "git",
-      "tags": ["supabase", "postgres", "database", "security"],
+      "tags": [
+        "supabase",
+        "postgres",
+        "database",
+        "security"
+      ],
       "license": "MIT"
     },
     {
@@ -167,7 +225,12 @@
       "repo": "https://github.com/supabase/agent-skills",
       "path": "skills/supabase",
       "install": "git",
-      "tags": ["supabase", "database", "auth", "cloud"],
+      "tags": [
+        "supabase",
+        "database",
+        "auth",
+        "cloud"
+      ],
       "license": "MIT"
     },
     {
@@ -179,7 +242,12 @@
       "repo": "https://github.com/heygen-com/hyperframes",
       "path": "skills/hyperframes-cli",
       "install": "git",
-      "tags": ["video", "cli", "rendering", "hyperframes"],
+      "tags": [
+        "video",
+        "cli",
+        "rendering",
+        "hyperframes"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -191,7 +259,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/writing-plans",
       "install": "git",
-      "tags": ["planning", "specification", "workflow"],
+      "tags": [
+        "planning",
+        "specification",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -203,7 +275,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/verification-before-completion",
       "install": "git",
-      "tags": ["verification", "testing", "quality"],
+      "tags": [
+        "verification",
+        "testing",
+        "quality"
+      ],
       "license": "MIT"
     },
     {
@@ -215,7 +291,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/receiving-code-review",
       "install": "git",
-      "tags": ["review", "feedback", "engineering"],
+      "tags": [
+        "review",
+        "feedback",
+        "engineering"
+      ],
       "license": "MIT"
     },
     {
@@ -227,7 +307,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/diagnosing-bugs",
       "install": "git",
-      "tags": ["debugging", "performance", "engineering"],
+      "tags": [
+        "debugging",
+        "performance",
+        "engineering"
+      ],
       "license": "MIT"
     },
     {
@@ -239,7 +323,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/implement-spec",
       "install": "git",
-      "tags": ["implementation", "specification", "engineering"],
+      "tags": [
+        "implementation",
+        "specification",
+        "engineering"
+      ],
       "license": "MIT"
     },
     {
@@ -251,7 +339,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/improve-codebase-architecture",
       "install": "git",
-      "tags": ["architecture", "refactoring", "engineering"],
+      "tags": [
+        "architecture",
+        "refactoring",
+        "engineering"
+      ],
       "license": "MIT"
     },
     {
@@ -263,7 +355,11 @@
       "repo": "https://github.com/heygen-com/hyperframes",
       "path": "skills/slideshow",
       "install": "git",
-      "tags": ["video", "presentation", "hyperframes"],
+      "tags": [
+        "video",
+        "presentation",
+        "hyperframes"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -275,7 +371,12 @@
       "repo": "https://github.com/heygen-com/hyperframes",
       "path": "skills/media-use",
       "install": "git",
-      "tags": ["video", "media", "audio", "hyperframes"],
+      "tags": [
+        "video",
+        "media",
+        "audio",
+        "hyperframes"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -287,7 +388,12 @@
       "repo": "https://github.com/heygen-com/hyperframes",
       "path": "skills/remotion-to-hyperframes",
       "install": "git",
-      "tags": ["video", "animation", "migration", "hyperframes"],
+      "tags": [
+        "video",
+        "animation",
+        "migration",
+        "hyperframes"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -299,7 +405,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/dispatching-parallel-agents",
       "install": "git",
-      "tags": ["agents", "parallelism", "workflow"],
+      "tags": [
+        "agents",
+        "parallelism",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -311,7 +421,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/executing-plans",
       "install": "git",
-      "tags": ["planning", "implementation", "workflow"],
+      "tags": [
+        "planning",
+        "implementation",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -323,7 +437,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/using-git-worktrees",
       "install": "git",
-      "tags": ["git", "worktrees", "workflow"],
+      "tags": [
+        "git",
+        "worktrees",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -335,7 +453,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/writing-skills",
       "install": "git",
-      "tags": ["skills", "authoring", "documentation"],
+      "tags": [
+        "skills",
+        "authoring",
+        "documentation"
+      ],
       "license": "MIT"
     },
     {
@@ -347,7 +469,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/domain-modeling",
       "install": "git",
-      "tags": ["domain-modeling", "architecture", "documentation"],
+      "tags": [
+        "domain-modeling",
+        "architecture",
+        "documentation"
+      ],
       "license": "MIT"
     },
     {
@@ -359,7 +485,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/implement",
       "install": "git",
-      "tags": ["implementation", "specification", "engineering"],
+      "tags": [
+        "implementation",
+        "specification",
+        "engineering"
+      ],
       "license": "MIT"
     },
     {
@@ -371,7 +501,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/research",
       "install": "git",
-      "tags": ["research", "documentation", "sources"],
+      "tags": [
+        "research",
+        "documentation",
+        "sources"
+      ],
       "license": "MIT"
     },
     {
@@ -383,7 +517,12 @@
       "repo": "https://github.com/prisma/skills",
       "path": "prisma-client-api",
       "install": "git",
-      "tags": ["prisma", "database", "orm", "queries"],
+      "tags": [
+        "prisma",
+        "database",
+        "orm",
+        "queries"
+      ],
       "license": "MIT"
     },
     {
@@ -395,7 +534,12 @@
       "repo": "https://github.com/prisma/skills",
       "path": "prisma-orm-setup",
       "install": "git",
-      "tags": ["prisma", "database", "setup", "orm"],
+      "tags": [
+        "prisma",
+        "database",
+        "setup",
+        "orm"
+      ],
       "license": "MIT"
     },
     {
@@ -407,7 +551,12 @@
       "repo": "https://github.com/google/agents-cli",
       "path": "skills/google-agents-cli-adk-code",
       "install": "git",
-      "tags": ["google", "agents", "adk", "cloud"],
+      "tags": [
+        "google",
+        "agents",
+        "adk",
+        "cloud"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -419,7 +568,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/subagent-driven-development",
       "install": "git",
-      "tags": ["agents", "implementation", "parallelism"],
+      "tags": [
+        "agents",
+        "implementation",
+        "parallelism"
+      ],
       "license": "MIT"
     },
     {
@@ -431,7 +584,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/finishing-a-development-branch",
       "install": "git",
-      "tags": ["git", "release", "workflow"],
+      "tags": [
+        "git",
+        "release",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -443,7 +600,11 @@
       "repo": "https://github.com/obra/superpowers",
       "path": "skills/diagnosing-superpowers",
       "install": "git",
-      "tags": ["debugging", "workflow", "skills"],
+      "tags": [
+        "debugging",
+        "workflow",
+        "skills"
+      ],
       "license": "MIT"
     },
     {
@@ -455,7 +616,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/codebase-design",
       "install": "git",
-      "tags": ["architecture", "modules", "design"],
+      "tags": [
+        "architecture",
+        "modules",
+        "design"
+      ],
       "license": "MIT"
     },
     {
@@ -467,7 +632,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/to-spec",
       "install": "git",
-      "tags": ["specification", "planning", "issues"],
+      "tags": [
+        "specification",
+        "planning",
+        "issues"
+      ],
       "license": "MIT"
     },
     {
@@ -479,7 +648,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/to-tickets",
       "install": "git",
-      "tags": ["planning", "tickets", "project-management"],
+      "tags": [
+        "planning",
+        "tickets",
+        "project-management"
+      ],
       "license": "MIT"
     },
     {
@@ -491,7 +664,12 @@
       "repo": "https://github.com/prisma/skills",
       "path": "prisma-postgres-setup",
       "install": "git",
-      "tags": ["prisma", "postgres", "database", "setup"],
+      "tags": [
+        "prisma",
+        "postgres",
+        "database",
+        "setup"
+      ],
       "license": "MIT"
     },
     {
@@ -503,7 +681,11 @@
       "repo": "https://github.com/prisma/skills",
       "path": "prisma-upgrade-v7",
       "install": "git",
-      "tags": ["prisma", "migration", "upgrade"],
+      "tags": [
+        "prisma",
+        "migration",
+        "upgrade"
+      ],
       "license": "MIT"
     },
     {
@@ -515,7 +697,11 @@
       "repo": "https://github.com/prisma/skills",
       "path": "prisma-compute",
       "install": "git",
-      "tags": ["prisma", "deployment", "hosting"],
+      "tags": [
+        "prisma",
+        "deployment",
+        "hosting"
+      ],
       "license": "MIT"
     },
     {
@@ -527,7 +713,12 @@
       "repo": "https://github.com/prisma/skills",
       "path": "prisma-driver-adapter-implementation",
       "install": "git",
-      "tags": ["prisma", "database", "drivers", "engineering"],
+      "tags": [
+        "prisma",
+        "database",
+        "drivers",
+        "engineering"
+      ],
       "license": "MIT"
     },
     {
@@ -539,7 +730,12 @@
       "repo": "https://github.com/microsoft/azure-skills",
       "path": "skills/microsoft-foundry",
       "install": "git",
-      "tags": ["microsoft", "azure", "agents", "ai"],
+      "tags": [
+        "microsoft",
+        "azure",
+        "agents",
+        "ai"
+      ],
       "license": "MIT"
     },
     {
@@ -551,7 +747,12 @@
       "repo": "https://github.com/microsoft/azure-skills",
       "path": "skills/azure-compute",
       "install": "git",
-      "tags": ["azure", "compute", "cloud", "infrastructure"],
+      "tags": [
+        "azure",
+        "compute",
+        "cloud",
+        "infrastructure"
+      ],
       "license": "MIT"
     },
     {
@@ -563,7 +764,12 @@
       "repo": "https://github.com/microsoft/azure-skills",
       "path": "skills/azure-cloud-migrate",
       "install": "git",
-      "tags": ["azure", "migration", "cloud", "modernization"],
+      "tags": [
+        "azure",
+        "migration",
+        "cloud",
+        "modernization"
+      ],
       "license": "MIT"
     },
     {
@@ -575,7 +781,12 @@
       "repo": "https://github.com/microsoft/azure-skills",
       "path": "skills/azure-quotas",
       "install": "git",
-      "tags": ["azure", "quotas", "capacity", "cloud"],
+      "tags": [
+        "azure",
+        "quotas",
+        "capacity",
+        "cloud"
+      ],
       "license": "MIT"
     },
     {
@@ -587,7 +798,12 @@
       "repo": "https://github.com/microsoft/azure-skills",
       "path": "skills/azure-upgrade",
       "install": "git",
-      "tags": ["azure", "upgrade", "modernization", "cloud"],
+      "tags": [
+        "azure",
+        "upgrade",
+        "modernization",
+        "cloud"
+      ],
       "license": "MIT"
     },
     {
@@ -599,7 +815,12 @@
       "repo": "https://github.com/microsoft/azure-skills",
       "path": "skills/azure-enterprise-infra-planner",
       "install": "git",
-      "tags": ["azure", "infrastructure", "terraform", "bicep"],
+      "tags": [
+        "azure",
+        "infrastructure",
+        "terraform",
+        "bicep"
+      ],
       "license": "MIT"
     },
     {
@@ -611,7 +832,12 @@
       "repo": "https://github.com/microsoft/azure-skills",
       "path": "skills/azure-kubernetes",
       "install": "git",
-      "tags": ["azure", "kubernetes", "aks", "containers"],
+      "tags": [
+        "azure",
+        "kubernetes",
+        "aks",
+        "containers"
+      ],
       "license": "MIT"
     },
     {
@@ -623,7 +849,12 @@
       "repo": "https://github.com/microsoft/azure-skills",
       "path": "skills/azure-reliability",
       "install": "git",
-      "tags": ["azure", "reliability", "availability", "disaster-recovery"],
+      "tags": [
+        "azure",
+        "reliability",
+        "availability",
+        "disaster-recovery"
+      ],
       "license": "MIT"
     },
     {
@@ -635,7 +866,12 @@
       "repo": "https://github.com/microsoft/azure-skills",
       "path": "skills/python-appservice-deploy",
       "install": "git",
-      "tags": ["python", "azure", "deployment", "appservice"],
+      "tags": [
+        "python",
+        "azure",
+        "deployment",
+        "appservice"
+      ],
       "license": "MIT"
     },
     {
@@ -647,7 +883,12 @@
       "repo": "https://github.com/microsoft/azure-skills",
       "path": "skills/entra-agent-id",
       "install": "git",
-      "tags": ["microsoft", "entra", "identity", "agents"],
+      "tags": [
+        "microsoft",
+        "entra",
+        "identity",
+        "agents"
+      ],
       "license": "MIT"
     },
     {
@@ -659,7 +900,12 @@
       "repo": "https://github.com/heygen-com/hyperframes",
       "path": "skills/hyperframes",
       "install": "git",
-      "tags": ["video", "animation", "rendering", "hyperframes"],
+      "tags": [
+        "video",
+        "animation",
+        "rendering",
+        "hyperframes"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -671,7 +917,12 @@
       "repo": "https://github.com/heygen-com/hyperframes",
       "path": "skills/figma",
       "install": "git",
-      "tags": ["figma", "video", "design", "hyperframes"],
+      "tags": [
+        "figma",
+        "video",
+        "design",
+        "hyperframes"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -683,7 +934,12 @@
       "repo": "https://github.com/heygen-com/hyperframes",
       "path": "skills/hyperframes-registry",
       "install": "git",
-      "tags": ["video", "components", "assets", "hyperframes"],
+      "tags": [
+        "video",
+        "components",
+        "assets",
+        "hyperframes"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -695,7 +951,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/prototype",
       "install": "git",
-      "tags": ["prototyping", "design", "engineering"],
+      "tags": [
+        "prototyping",
+        "design",
+        "engineering"
+      ],
       "license": "MIT"
     },
     {
@@ -707,7 +967,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/triage",
       "install": "git",
-      "tags": ["triage", "issues", "pull-requests"],
+      "tags": [
+        "triage",
+        "issues",
+        "pull-requests"
+      ],
       "license": "MIT"
     },
     {
@@ -719,7 +983,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/pr",
       "install": "git",
-      "tags": ["git", "pull-request", "documentation"],
+      "tags": [
+        "git",
+        "pull-request",
+        "documentation"
+      ],
       "license": "MIT"
     },
     {
@@ -731,7 +999,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/productivity/writing-for-agents",
       "install": "git",
-      "tags": ["documentation", "agents", "writing"],
+      "tags": [
+        "documentation",
+        "agents",
+        "writing"
+      ],
       "license": "MIT"
     },
     {
@@ -743,7 +1015,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/retro",
       "install": "git",
-      "tags": ["retrospective", "workflow", "learning"],
+      "tags": [
+        "retrospective",
+        "workflow",
+        "learning"
+      ],
       "license": "MIT"
     },
     {
@@ -755,7 +1031,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/productivity/handoff",
       "install": "git",
-      "tags": ["handoff", "agents", "continuity"],
+      "tags": [
+        "handoff",
+        "agents",
+        "continuity"
+      ],
       "license": "MIT"
     },
     {
@@ -767,7 +1047,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/productivity/teach",
       "install": "git",
-      "tags": ["learning", "teaching", "productivity"],
+      "tags": [
+        "learning",
+        "teaching",
+        "productivity"
+      ],
       "license": "MIT"
     },
     {
@@ -779,7 +1063,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/ask-matt",
       "install": "git",
-      "tags": ["routing", "workflow", "skills"],
+      "tags": [
+        "routing",
+        "workflow",
+        "skills"
+      ],
       "license": "MIT"
     },
     {
@@ -791,7 +1079,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/wizard",
       "install": "git",
-      "tags": ["setup", "interactive", "infrastructure"],
+      "tags": [
+        "setup",
+        "interactive",
+        "infrastructure"
+      ],
       "license": "MIT"
     },
     {
@@ -803,7 +1095,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/engineering/setup-matt-pocock-skills",
       "install": "git",
-      "tags": ["setup", "engineering", "configuration"],
+      "tags": [
+        "setup",
+        "engineering",
+        "configuration"
+      ],
       "license": "MIT"
     },
     {
@@ -815,7 +1111,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/productivity/to-questionnaire",
       "install": "git",
-      "tags": ["questionnaire", "decisions", "communication"],
+      "tags": [
+        "questionnaire",
+        "decisions",
+        "communication"
+      ],
       "license": "MIT"
     },
     {
@@ -827,7 +1127,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/productivity/wait-what",
       "install": "git",
-      "tags": ["communication", "clarification", "productivity"],
+      "tags": [
+        "communication",
+        "clarification",
+        "productivity"
+      ],
       "license": "MIT"
     },
     {
@@ -839,7 +1143,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/misc/git-guardrails-claude-code",
       "install": "git",
-      "tags": ["git", "safety", "claude-code"],
+      "tags": [
+        "git",
+        "safety",
+        "claude-code"
+      ],
       "license": "MIT"
     },
     {
@@ -851,7 +1159,11 @@
       "repo": "https://github.com/mattpocock/skills",
       "path": "skills/misc/setup-pre-commit",
       "install": "git",
-      "tags": ["git", "hooks", "quality"],
+      "tags": [
+        "git",
+        "hooks",
+        "quality"
+      ],
       "license": "MIT"
     },
     {
@@ -863,7 +1175,12 @@
       "repo": "https://github.com/vercel-labs/agent-browser",
       "path": "skills/agent-browser",
       "install": "git",
-      "tags": ["browser", "automation", "testing", "web"],
+      "tags": [
+        "browser",
+        "automation",
+        "testing",
+        "web"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -875,7 +1192,12 @@
       "repo": "https://github.com/flowkit-labs/skills",
       "path": "reddit-automation",
       "install": "git",
-      "tags": ["reddit", "research", "community", "marketing"],
+      "tags": [
+        "reddit",
+        "research",
+        "community",
+        "marketing"
+      ],
       "license": "MIT"
     },
     {
@@ -887,7 +1209,12 @@
       "repo": "https://github.com/designed-by-ai/skills",
       "path": "skills/design-mobile-apps",
       "install": "git",
-      "tags": ["mobile", "design", "react-native", "ui"],
+      "tags": [
+        "mobile",
+        "design",
+        "react-native",
+        "ui"
+      ],
       "license": "MIT"
     },
     {
@@ -899,7 +1226,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "ai-video-generation",
       "install": "git",
-      "tags": ["video", "ai", "generation", "runcomfy"],
+      "tags": [
+        "video",
+        "ai",
+        "generation",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -911,7 +1243,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "image-to-video",
       "install": "git",
-      "tags": ["video", "image-to-video", "ai", "runcomfy"],
+      "tags": [
+        "video",
+        "image-to-video",
+        "ai",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -923,7 +1260,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "kling-3-0",
       "install": "git",
-      "tags": ["video", "kling", "generation", "runcomfy"],
+      "tags": [
+        "video",
+        "kling",
+        "generation",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -935,7 +1277,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "ai-image-generation",
       "install": "git",
-      "tags": ["images", "ai", "generation", "runcomfy"],
+      "tags": [
+        "images",
+        "ai",
+        "generation",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -947,7 +1294,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "ai-avatar-video",
       "install": "git",
-      "tags": ["video", "avatar", "lip-sync", "runcomfy"],
+      "tags": [
+        "video",
+        "avatar",
+        "lip-sync",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -959,7 +1311,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "runcomfy-cli",
       "install": "git",
-      "tags": ["cli", "models", "automation", "runcomfy"],
+      "tags": [
+        "cli",
+        "models",
+        "automation",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -971,7 +1328,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "flux-2-klein",
       "install": "git",
-      "tags": ["images", "flux", "generation", "runcomfy"],
+      "tags": [
+        "images",
+        "flux",
+        "generation",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -983,7 +1345,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "gpt-image-2",
       "install": "git",
-      "tags": ["images", "openai", "generation", "runcomfy"],
+      "tags": [
+        "images",
+        "openai",
+        "generation",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -995,7 +1362,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "nano-banana-2",
       "install": "git",
-      "tags": ["images", "google", "generation", "runcomfy"],
+      "tags": [
+        "images",
+        "google",
+        "generation",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1007,7 +1379,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "seedance-v2",
       "install": "git",
-      "tags": ["video", "seedance", "generation", "runcomfy"],
+      "tags": [
+        "video",
+        "seedance",
+        "generation",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1019,7 +1396,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "ai-music",
       "install": "git",
-      "tags": ["music", "audio", "generation", "runcomfy"],
+      "tags": [
+        "music",
+        "audio",
+        "generation",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1031,7 +1413,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "controlnet-pose",
       "install": "git",
-      "tags": ["pose", "controlnet", "video", "runcomfy"],
+      "tags": [
+        "pose",
+        "controlnet",
+        "video",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1043,7 +1430,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "face-swap",
       "install": "git",
-      "tags": ["images", "video", "face-swap", "runcomfy"],
+      "tags": [
+        "images",
+        "video",
+        "face-swap",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1055,7 +1447,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "flux-kontext",
       "install": "git",
-      "tags": ["images", "editing", "flux", "runcomfy"],
+      "tags": [
+        "images",
+        "editing",
+        "flux",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1067,7 +1464,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "gpt-image-edit",
       "install": "git",
-      "tags": ["images", "editing", "openai", "runcomfy"],
+      "tags": [
+        "images",
+        "editing",
+        "openai",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1079,7 +1481,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "happyhorse-1-0",
       "install": "git",
-      "tags": ["video", "generation", "happyhorse", "runcomfy"],
+      "tags": [
+        "video",
+        "generation",
+        "happyhorse",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1091,7 +1498,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "image-edit",
       "install": "git",
-      "tags": ["images", "editing", "ai", "runcomfy"],
+      "tags": [
+        "images",
+        "editing",
+        "ai",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1103,7 +1515,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "image-inpainting",
       "install": "git",
-      "tags": ["images", "inpainting", "editing", "runcomfy"],
+      "tags": [
+        "images",
+        "inpainting",
+        "editing",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1115,7 +1532,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "image-outpainting",
       "install": "git",
-      "tags": ["images", "outpainting", "editing", "runcomfy"],
+      "tags": [
+        "images",
+        "outpainting",
+        "editing",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1127,7 +1549,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "lipsync",
       "install": "git",
-      "tags": ["video", "audio", "lip-sync", "runcomfy"],
+      "tags": [
+        "video",
+        "audio",
+        "lip-sync",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1139,7 +1566,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "video-edit",
       "install": "git",
-      "tags": ["video", "editing", "ai", "runcomfy"],
+      "tags": [
+        "video",
+        "editing",
+        "ai",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1151,7 +1583,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "video-extend",
       "install": "git",
-      "tags": ["video", "extension", "generation", "runcomfy"],
+      "tags": [
+        "video",
+        "extension",
+        "generation",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1163,7 +1600,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "video-inpainting",
       "install": "git",
-      "tags": ["video", "inpainting", "editing", "runcomfy"],
+      "tags": [
+        "video",
+        "inpainting",
+        "editing",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1175,7 +1617,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "video-outpainting",
       "install": "git",
-      "tags": ["video", "outpainting", "editing", "runcomfy"],
+      "tags": [
+        "video",
+        "outpainting",
+        "editing",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1187,7 +1634,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "wan-2-7",
       "install": "git",
-      "tags": ["video", "wan", "generation", "runcomfy"],
+      "tags": [
+        "video",
+        "wan",
+        "generation",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1199,7 +1651,12 @@
       "repo": "https://github.com/prime-skills/runcomfy-agent-skills",
       "path": "ace-step",
       "install": "git",
-      "tags": ["music", "audio", "editing", "runcomfy"],
+      "tags": [
+        "music",
+        "audio",
+        "editing",
+        "runcomfy"
+      ],
       "license": "MIT"
     },
     {
@@ -1211,7 +1668,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-doc",
       "install": "git",
-      "tags": ["lark", "documents", "productivity", "cli"],
+      "tags": [
+        "lark",
+        "documents",
+        "productivity",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1223,7 +1685,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-calendar",
       "install": "git",
-      "tags": ["lark", "calendar", "meetings", "cli"],
+      "tags": [
+        "lark",
+        "calendar",
+        "meetings",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1235,7 +1702,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-task",
       "install": "git",
-      "tags": ["lark", "tasks", "project-management", "cli"],
+      "tags": [
+        "lark",
+        "tasks",
+        "project-management",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1247,7 +1719,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-sheets",
       "install": "git",
-      "tags": ["lark", "spreadsheets", "data", "cli"],
+      "tags": [
+        "lark",
+        "spreadsheets",
+        "data",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1259,7 +1736,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-base",
       "install": "git",
-      "tags": ["lark", "database", "tables", "cli"],
+      "tags": [
+        "lark",
+        "database",
+        "tables",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1271,7 +1753,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-drive",
       "install": "git",
-      "tags": ["lark", "drive", "files", "cli"],
+      "tags": [
+        "lark",
+        "drive",
+        "files",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1283,7 +1770,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-im",
       "install": "git",
-      "tags": ["lark", "messaging", "chat", "cli"],
+      "tags": [
+        "lark",
+        "messaging",
+        "chat",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1295,7 +1787,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-mail",
       "install": "git",
-      "tags": ["lark", "email", "productivity", "cli"],
+      "tags": [
+        "lark",
+        "email",
+        "productivity",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1307,7 +1804,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-meeting",
       "install": "git",
-      "tags": ["lark", "meetings", "transcripts", "cli"],
+      "tags": [
+        "lark",
+        "meetings",
+        "transcripts",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1319,7 +1821,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-slides",
       "install": "git",
-      "tags": ["lark", "presentations", "slides", "cli"],
+      "tags": [
+        "lark",
+        "presentations",
+        "slides",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1331,7 +1838,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-shared",
       "install": "git",
-      "tags": ["lark", "authentication", "permissions", "cli"],
+      "tags": [
+        "lark",
+        "authentication",
+        "permissions",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1343,7 +1855,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-approval",
       "install": "git",
-      "tags": ["lark", "approvals", "workflow", "cli"],
+      "tags": [
+        "lark",
+        "approvals",
+        "workflow",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1355,7 +1872,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-contact",
       "install": "git",
-      "tags": ["lark", "contacts", "directory", "cli"],
+      "tags": [
+        "lark",
+        "contacts",
+        "directory",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1367,7 +1889,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-event",
       "install": "git",
-      "tags": ["lark", "events", "streaming", "cli"],
+      "tags": [
+        "lark",
+        "events",
+        "streaming",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1379,7 +1906,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-openapi-explorer",
       "install": "git",
-      "tags": ["lark", "api", "openapi", "cli"],
+      "tags": [
+        "lark",
+        "api",
+        "openapi",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1391,7 +1923,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-wiki",
       "install": "git",
-      "tags": ["lark", "wiki", "knowledge-base", "cli"],
+      "tags": [
+        "lark",
+        "wiki",
+        "knowledge-base",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1403,7 +1940,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-whiteboard",
       "install": "git",
-      "tags": ["lark", "whiteboard", "documents", "cli"],
+      "tags": [
+        "lark",
+        "whiteboard",
+        "documents",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1415,7 +1957,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-workflow-standup-report",
       "install": "git",
-      "tags": ["lark", "standup", "calendar", "tasks"],
+      "tags": [
+        "lark",
+        "standup",
+        "calendar",
+        "tasks"
+      ],
       "license": "MIT"
     },
     {
@@ -1427,7 +1974,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-workflow-meeting-summary",
       "install": "git",
-      "tags": ["lark", "meetings", "summaries", "workflow"],
+      "tags": [
+        "lark",
+        "meetings",
+        "summaries",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -1439,7 +1991,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-markdown",
       "install": "git",
-      "tags": ["lark", "markdown", "documents", "cli"],
+      "tags": [
+        "lark",
+        "markdown",
+        "documents",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1451,7 +2008,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-apps",
       "install": "git",
-      "tags": ["lark", "apps", "development", "deployment"],
+      "tags": [
+        "lark",
+        "apps",
+        "development",
+        "deployment"
+      ],
       "license": "MIT"
     },
     {
@@ -1463,7 +2025,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-okr",
       "install": "git",
-      "tags": ["lark", "okr", "goals", "planning"],
+      "tags": [
+        "lark",
+        "okr",
+        "goals",
+        "planning"
+      ],
       "license": "MIT"
     },
     {
@@ -1475,7 +2042,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-attendance",
       "install": "git",
-      "tags": ["lark", "attendance", "records", "cli"],
+      "tags": [
+        "lark",
+        "attendance",
+        "records",
+        "cli"
+      ],
       "license": "MIT"
     },
     {
@@ -1487,7 +2059,12 @@
       "repo": "https://github.com/larksuite/cli",
       "path": "skills/lark-skill-maker",
       "install": "git",
-      "tags": ["lark", "skill-authoring", "api", "workflow"],
+      "tags": [
+        "lark",
+        "skill-authoring",
+        "api",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -1499,7 +2076,12 @@
       "repo": "https://github.com/vercel-labs/skills",
       "path": "skills/find-skills",
       "install": "git",
-      "tags": ["discovery", "skills", "installation", "vercel"],
+      "tags": [
+        "discovery",
+        "skills",
+        "installation",
+        "vercel"
+      ],
       "license": "MIT"
     },
     {
@@ -1511,7 +2093,12 @@
       "repo": "https://github.com/emilkowalski/skills",
       "path": "skills/emil-design-eng",
       "install": "git",
-      "tags": ["design", "frontend", "animation", "ui"],
+      "tags": [
+        "design",
+        "frontend",
+        "animation",
+        "ui"
+      ],
       "license": "MIT"
     },
     {
@@ -1523,7 +2110,12 @@
       "repo": "https://github.com/neondatabase/agent-skills",
       "path": "skills/neon",
       "install": "git",
-      "tags": ["neon", "postgres", "backend", "database"],
+      "tags": [
+        "neon",
+        "postgres",
+        "backend",
+        "database"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1535,7 +2127,12 @@
       "repo": "https://github.com/neondatabase/agent-skills",
       "path": "skills/neon-auth",
       "install": "git",
-      "tags": ["neon", "authentication", "identity", "postgres"],
+      "tags": [
+        "neon",
+        "authentication",
+        "identity",
+        "postgres"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1547,7 +2144,12 @@
       "repo": "https://github.com/neondatabase/agent-skills",
       "path": "skills/neon-functions",
       "install": "git",
-      "tags": ["neon", "serverless", "functions", "nodejs"],
+      "tags": [
+        "neon",
+        "serverless",
+        "functions",
+        "nodejs"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1559,7 +2161,12 @@
       "repo": "https://github.com/neondatabase/agent-skills",
       "path": "skills/neon-object-storage",
       "install": "git",
-      "tags": ["neon", "storage", "s3", "files"],
+      "tags": [
+        "neon",
+        "storage",
+        "s3",
+        "files"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1571,7 +2178,12 @@
       "repo": "https://github.com/neondatabase/agent-skills",
       "path": "skills/neon-postgres-branches",
       "install": "git",
-      "tags": ["neon", "postgres", "branching", "testing"],
+      "tags": [
+        "neon",
+        "postgres",
+        "branching",
+        "testing"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1583,7 +2195,12 @@
       "repo": "https://github.com/neondatabase/agent-skills",
       "path": "skills/neon-realtime",
       "install": "git",
-      "tags": ["neon", "realtime", "postgres", "reactive"],
+      "tags": [
+        "neon",
+        "realtime",
+        "postgres",
+        "reactive"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1595,7 +2212,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/agents-sdk",
       "install": "git",
-      "tags": ["cloudflare", "agents", "sdk", "workers"],
+      "tags": [
+        "cloudflare",
+        "agents",
+        "sdk",
+        "workers"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1607,7 +2229,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/cf-cli",
       "install": "git",
-      "tags": ["cloudflare", "cli", "workers", "devops"],
+      "tags": [
+        "cloudflare",
+        "cli",
+        "workers",
+        "devops"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1619,7 +2246,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/durable-objects",
       "install": "git",
-      "tags": ["cloudflare", "durable-objects", "workers", "state"],
+      "tags": [
+        "cloudflare",
+        "durable-objects",
+        "workers",
+        "state"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1631,7 +2263,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/nextjs-on-cloudflare",
       "install": "git",
-      "tags": ["cloudflare", "nextjs", "workers", "deployment"],
+      "tags": [
+        "cloudflare",
+        "nextjs",
+        "workers",
+        "deployment"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1643,7 +2280,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/workers-best-practices",
       "install": "git",
-      "tags": ["cloudflare", "workers", "best-practices", "edge"],
+      "tags": [
+        "cloudflare",
+        "workers",
+        "best-practices",
+        "edge"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1655,7 +2297,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/wrangler",
       "install": "git",
-      "tags": ["cloudflare", "wrangler", "cli", "workers"],
+      "tags": [
+        "cloudflare",
+        "wrangler",
+        "cli",
+        "workers"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1667,7 +2314,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/web-perf",
       "install": "git",
-      "tags": ["web", "performance", "lighthouse", "optimization"],
+      "tags": [
+        "web",
+        "performance",
+        "lighthouse",
+        "optimization"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1679,7 +2331,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/workers-profiling",
       "install": "git",
-      "tags": ["cloudflare", "workers", "profiling", "performance"],
+      "tags": [
+        "cloudflare",
+        "workers",
+        "profiling",
+        "performance"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1691,7 +2348,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/cloudflare-email-service",
       "install": "git",
-      "tags": ["cloudflare", "email", "routing", "integration"],
+      "tags": [
+        "cloudflare",
+        "email",
+        "routing",
+        "integration"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1703,7 +2365,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/cloudflare-one",
       "install": "git",
-      "tags": ["cloudflare", "zero-trust", "security", "networking"],
+      "tags": [
+        "cloudflare",
+        "zero-trust",
+        "security",
+        "networking"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1715,7 +2382,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/turnstile-spin",
       "install": "git",
-      "tags": ["cloudflare", "turnstile", "security", "frontend"],
+      "tags": [
+        "cloudflare",
+        "turnstile",
+        "security",
+        "frontend"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1727,7 +2399,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/cloudflare",
       "install": "git",
-      "tags": ["cloudflare", "architecture", "products", "cloud"],
+      "tags": [
+        "cloudflare",
+        "architecture",
+        "products",
+        "cloud"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1739,7 +2416,12 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/basin",
       "install": "git",
-      "tags": ["cloudflare", "analytics", "data", "sql"],
+      "tags": [
+        "cloudflare",
+        "analytics",
+        "data",
+        "sql"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1751,7 +2433,12 @@
       "repo": "https://github.com/neondatabase/agent-skills",
       "path": "skills/neon-postgres",
       "install": "git",
-      "tags": ["neon", "postgres", "database", "search"],
+      "tags": [
+        "neon",
+        "postgres",
+        "database",
+        "search"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1763,7 +2450,12 @@
       "repo": "https://github.com/neondatabase/agent-skills",
       "path": "skills/neon-ai-gateway",
       "install": "git",
-      "tags": ["neon", "ai", "llm", "gateway"],
+      "tags": [
+        "neon",
+        "ai",
+        "llm",
+        "gateway"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1775,7 +2467,12 @@
       "repo": "https://github.com/neondatabase/agent-skills",
       "path": "skills/neon-postgres-egress-optimizer",
       "install": "git",
-      "tags": ["neon", "postgres", "optimization", "cost"],
+      "tags": [
+        "neon",
+        "postgres",
+        "optimization",
+        "cost"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1787,7 +2484,12 @@
       "repo": "https://github.com/microsoft/playwright-cli",
       "path": "skills/playwright-cli",
       "install": "git",
-      "tags": ["playwright", "browser", "automation", "testing"],
+      "tags": [
+        "playwright",
+        "browser",
+        "automation",
+        "testing"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1799,7 +2501,12 @@
       "repo": "https://github.com/browser-use/browser-use",
       "path": "skills/browser-use",
       "install": "git",
-      "tags": ["browser", "automation", "scraping", "testing"],
+      "tags": [
+        "browser",
+        "automation",
+        "scraping",
+        "testing"
+      ],
       "license": "MIT"
     },
     {
@@ -1811,7 +2518,12 @@
       "repo": "https://github.com/browser-use/browser-use",
       "path": "skills/cloud",
       "install": "git",
-      "tags": ["browser", "cloud", "automation", "sdk"],
+      "tags": [
+        "browser",
+        "cloud",
+        "automation",
+        "sdk"
+      ],
       "license": "MIT"
     },
     {
@@ -1823,7 +2535,12 @@
       "repo": "https://github.com/browser-use/browser-use",
       "path": "skills/qa",
       "install": "git",
-      "tags": ["browser", "qa", "testing", "evaluation"],
+      "tags": [
+        "browser",
+        "qa",
+        "testing",
+        "evaluation"
+      ],
       "license": "MIT"
     },
     {
@@ -1835,7 +2552,12 @@
       "repo": "https://github.com/continuedev/continue",
       "path": "skills/cn-check",
       "install": "git",
-      "tags": ["continue", "code-review", "checks", "cli"],
+      "tags": [
+        "continue",
+        "code-review",
+        "checks",
+        "cli"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1847,7 +2569,12 @@
       "repo": "https://github.com/google/adk-python",
       "path": ".agents/skills/adk-agent-builder",
       "install": "git",
-      "tags": ["google", "adk", "agents", "python"],
+      "tags": [
+        "google",
+        "adk",
+        "agents",
+        "python"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1859,7 +2586,12 @@
       "repo": "https://github.com/google/adk-python",
       "path": ".agents/skills/adk-architecture",
       "install": "git",
-      "tags": ["google", "adk", "architecture", "python"],
+      "tags": [
+        "google",
+        "adk",
+        "architecture",
+        "python"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1871,7 +2603,12 @@
       "repo": "https://github.com/google/adk-python",
       "path": ".agents/skills/adk-debug",
       "install": "git",
-      "tags": ["google", "adk", "debugging", "agents"],
+      "tags": [
+        "google",
+        "adk",
+        "debugging",
+        "agents"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1883,7 +2620,12 @@
       "repo": "https://github.com/google/adk-python",
       "path": ".agents/skills/adk-git",
       "install": "git",
-      "tags": ["google", "adk", "git", "pull-requests"],
+      "tags": [
+        "google",
+        "adk",
+        "git",
+        "pull-requests"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1895,7 +2637,12 @@
       "repo": "https://github.com/google/adk-python",
       "path": ".agents/skills/adk-review",
       "install": "git",
-      "tags": ["google", "adk", "code-review", "python"],
+      "tags": [
+        "google",
+        "adk",
+        "code-review",
+        "python"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1907,7 +2654,12 @@
       "repo": "https://github.com/google/adk-python",
       "path": ".agents/skills/adk-setup",
       "install": "git",
-      "tags": ["google", "adk", "setup", "python"],
+      "tags": [
+        "google",
+        "adk",
+        "setup",
+        "python"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1919,7 +2671,12 @@
       "repo": "https://github.com/google/adk-python",
       "path": ".agents/skills/adk-style",
       "install": "git",
-      "tags": ["google", "adk", "python", "style"],
+      "tags": [
+        "google",
+        "adk",
+        "python",
+        "style"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1931,7 +2688,12 @@
       "repo": "https://github.com/google/adk-python",
       "path": ".agents/skills/adk-unit-design",
       "install": "git",
-      "tags": ["google", "adk", "architecture", "documentation"],
+      "tags": [
+        "google",
+        "adk",
+        "architecture",
+        "documentation"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1943,7 +2705,12 @@
       "repo": "https://github.com/google/adk-python",
       "path": ".agents/skills/adk-unit-guide",
       "install": "git",
-      "tags": ["google", "adk", "documentation", "guides"],
+      "tags": [
+        "google",
+        "adk",
+        "documentation",
+        "guides"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1955,7 +2722,12 @@
       "repo": "https://github.com/google/adk-python",
       "path": ".agents/skills/adk-verify-snippets",
       "install": "git",
-      "tags": ["google", "adk", "documentation", "testing"],
+      "tags": [
+        "google",
+        "adk",
+        "documentation",
+        "testing"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -1967,7 +2739,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/code-change-verification",
       "install": "git",
-      "tags": ["openai", "agents-sdk", "verification", "testing"],
+      "tags": [
+        "openai",
+        "agents-sdk",
+        "verification",
+        "testing"
+      ],
       "license": "MIT"
     },
     {
@@ -1979,7 +2756,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/docs-sync",
       "install": "git",
-      "tags": ["openai", "agents-sdk", "documentation", "python"],
+      "tags": [
+        "openai",
+        "agents-sdk",
+        "documentation",
+        "python"
+      ],
       "license": "MIT"
     },
     {
@@ -1991,7 +2773,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/examples-run-analysis",
       "install": "git",
-      "tags": ["openai", "agents-sdk", "examples", "analysis"],
+      "tags": [
+        "openai",
+        "agents-sdk",
+        "examples",
+        "analysis"
+      ],
       "license": "MIT"
     },
     {
@@ -2003,7 +2790,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/final-release-review",
       "install": "git",
-      "tags": ["openai", "release", "review", "python"],
+      "tags": [
+        "openai",
+        "release",
+        "review",
+        "python"
+      ],
       "license": "MIT"
     },
     {
@@ -2015,7 +2807,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/implementation-final-review",
       "install": "git",
-      "tags": ["openai", "implementation", "review", "python"],
+      "tags": [
+        "openai",
+        "implementation",
+        "review",
+        "python"
+      ],
       "license": "MIT"
     },
     {
@@ -2027,7 +2824,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/implementation-kickoff",
       "install": "git",
-      "tags": ["openai", "implementation", "worktrees", "workflow"],
+      "tags": [
+        "openai",
+        "implementation",
+        "worktrees",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -2039,7 +2841,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/implementation-strategy",
       "install": "git",
-      "tags": ["openai", "implementation", "compatibility", "planning"],
+      "tags": [
+        "openai",
+        "implementation",
+        "compatibility",
+        "planning"
+      ],
       "license": "MIT"
     },
     {
@@ -2051,7 +2858,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/maintainer-review",
       "install": "git",
-      "tags": ["openai", "github", "issues", "review"],
+      "tags": [
+        "openai",
+        "github",
+        "issues",
+        "review"
+      ],
       "license": "MIT"
     },
     {
@@ -2063,7 +2875,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/pr-draft-summary",
       "install": "git",
-      "tags": ["openai", "github", "pull-request", "writing"],
+      "tags": [
+        "openai",
+        "github",
+        "pull-request",
+        "writing"
+      ],
       "license": "MIT"
     },
     {
@@ -2075,7 +2892,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/sensitive-logging-audit",
       "install": "git",
-      "tags": ["openai", "security", "privacy", "logging"],
+      "tags": [
+        "openai",
+        "security",
+        "privacy",
+        "logging"
+      ],
       "license": "MIT"
     },
     {
@@ -2087,7 +2909,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/test-coverage-improver",
       "install": "git",
-      "tags": ["openai", "testing", "coverage", "python"],
+      "tags": [
+        "openai",
+        "testing",
+        "coverage",
+        "python"
+      ],
       "license": "MIT"
     },
     {
@@ -2099,7 +2926,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/openai-knowledge",
       "install": "git",
-      "tags": ["openai", "documentation", "research", "api"],
+      "tags": [
+        "openai",
+        "documentation",
+        "research",
+        "api"
+      ],
       "license": "MIT"
     },
     {
@@ -2111,7 +2943,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/runtime-behavior-probe",
       "install": "git",
-      "tags": ["openai", "runtime", "debugging", "testing"],
+      "tags": [
+        "openai",
+        "runtime",
+        "debugging",
+        "testing"
+      ],
       "license": "MIT"
     },
     {
@@ -2123,7 +2960,12 @@
       "repo": "https://github.com/openai/openai-agents-python",
       "path": ".agents/skills/release-candidate-prep",
       "install": "git",
-      "tags": ["openai", "release", "worktrees", "python"],
+      "tags": [
+        "openai",
+        "release",
+        "worktrees",
+        "python"
+      ],
       "license": "MIT"
     },
     {
@@ -2135,7 +2977,12 @@
       "repo": "https://github.com/google-gemini/gemini-cli",
       "path": ".gemini/skills/async-pr-review",
       "install": "git",
-      "tags": ["gemini-cli", "github", "pull-requests", "review"],
+      "tags": [
+        "gemini-cli",
+        "github",
+        "pull-requests",
+        "review"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2147,7 +2994,12 @@
       "repo": "https://github.com/google-gemini/gemini-cli",
       "path": ".gemini/skills/behavioral-evals",
       "install": "git",
-      "tags": ["gemini-cli", "evaluation", "agents", "testing"],
+      "tags": [
+        "gemini-cli",
+        "evaluation",
+        "agents",
+        "testing"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2159,7 +3011,12 @@
       "repo": "https://github.com/google-gemini/gemini-cli",
       "path": ".gemini/skills/ci",
       "install": "git",
-      "tags": ["gemini-cli", "ci", "github-actions", "debugging"],
+      "tags": [
+        "gemini-cli",
+        "ci",
+        "github-actions",
+        "debugging"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2171,7 +3028,12 @@
       "repo": "https://github.com/google-gemini/gemini-cli",
       "path": ".gemini/skills/code-reviewer",
       "install": "git",
-      "tags": ["gemini-cli", "code-review", "quality", "github"],
+      "tags": [
+        "gemini-cli",
+        "code-review",
+        "quality",
+        "github"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2183,7 +3045,12 @@
       "repo": "https://github.com/google-gemini/gemini-cli",
       "path": ".gemini/skills/docs-changelog",
       "install": "git",
-      "tags": ["gemini-cli", "changelog", "release", "documentation"],
+      "tags": [
+        "gemini-cli",
+        "changelog",
+        "release",
+        "documentation"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2195,7 +3062,12 @@
       "repo": "https://github.com/google-gemini/gemini-cli",
       "path": ".gemini/skills/docs-writer",
       "install": "git",
-      "tags": ["gemini-cli", "documentation", "writing", "markdown"],
+      "tags": [
+        "gemini-cli",
+        "documentation",
+        "writing",
+        "markdown"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2207,7 +3079,12 @@
       "repo": "https://github.com/google-gemini/gemini-cli",
       "path": ".gemini/skills/github-issue-creator",
       "install": "git",
-      "tags": ["gemini-cli", "github", "issues", "workflow"],
+      "tags": [
+        "gemini-cli",
+        "github",
+        "issues",
+        "workflow"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2219,7 +3096,12 @@
       "repo": "https://github.com/google-gemini/gemini-cli",
       "path": ".gemini/skills/pr-address-comments",
       "install": "git",
-      "tags": ["gemini-cli", "github", "pull-requests", "review"],
+      "tags": [
+        "gemini-cli",
+        "github",
+        "pull-requests",
+        "review"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2231,7 +3113,12 @@
       "repo": "https://github.com/google-gemini/gemini-cli",
       "path": ".gemini/skills/pr-creator",
       "install": "git",
-      "tags": ["gemini-cli", "github", "pull-requests", "workflow"],
+      "tags": [
+        "gemini-cli",
+        "github",
+        "pull-requests",
+        "workflow"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2243,7 +3130,12 @@
       "repo": "https://github.com/google-gemini/gemini-cli",
       "path": ".gemini/skills/review-duplication",
       "install": "git",
-      "tags": ["gemini-cli", "code-review", "duplication", "architecture"],
+      "tags": [
+        "gemini-cli",
+        "code-review",
+        "duplication",
+        "architecture"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2255,7 +3147,12 @@
       "repo": "https://github.com/google-gemini/gemini-cli",
       "path": ".gemini/skills/tui-tester",
       "install": "git",
-      "tags": ["gemini-cli", "tui", "testing", "automation"],
+      "tags": [
+        "gemini-cli",
+        "tui",
+        "testing",
+        "automation"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2266,8 +3163,15 @@
       "author": "farmage",
       "repo": "https://github.com/farmage/opencode-skills",
       "install": "git",
-      "tags": ["skills", "commands", "workflows", "opencode", "claude-skills"],
-      "license": "MIT"
+      "tags": [
+        "skills",
+        "commands",
+        "workflows",
+        "opencode",
+        "claude-skills"
+      ],
+      "license": "MIT",
+      "skill_count": 67
     },
     {
       "name": "opencode-power-pack",
@@ -2277,8 +3181,15 @@
       "author": "waybarrios",
       "repo": "https://github.com/waybarrios/opencode-power-pack",
       "install": "git",
-      "tags": ["skills", "code-review", "security", "frontend", "workflows"],
-      "license": "MIT"
+      "tags": [
+        "skills",
+        "code-review",
+        "security",
+        "frontend",
+        "workflows"
+      ],
+      "license": "MIT",
+      "skill_count": 53
     },
     {
       "name": "awesome-opencode-skills",
@@ -2288,8 +3199,15 @@
       "author": "jshsakura",
       "repo": "https://github.com/jshsakura/awesome-opencode-skills",
       "install": "git",
-      "tags": ["skills", "codex", "subagents", "automation", "collection"],
-      "license": "MIT"
+      "tags": [
+        "skills",
+        "codex",
+        "subagents",
+        "automation",
+        "collection"
+      ],
+      "license": "MIT",
+      "skill_count": 136
     },
     {
       "name": "garden-skills",
@@ -2299,8 +3217,15 @@
       "author": "ConardLi",
       "repo": "https://github.com/ConardLi/garden-skills",
       "install": "git",
-      "tags": ["skills", "web-design", "image-generation", "knowledge", "agents"],
-      "license": "MIT"
+      "tags": [
+        "skills",
+        "web-design",
+        "image-generation",
+        "knowledge",
+        "agents"
+      ],
+      "license": "MIT",
+      "skill_count": 6
     },
     {
       "name": "addyosmani-agent-skills",
@@ -2310,8 +3235,16 @@
       "author": "addyosmani",
       "repo": "https://github.com/addyosmani/agent-skills",
       "install": "git",
-      "tags": ["skills", "engineering", "testing", "ci-cd", "debugging", "performance"],
-      "license": "MIT"
+      "tags": [
+        "skills",
+        "engineering",
+        "testing",
+        "ci-cd",
+        "debugging",
+        "performance"
+      ],
+      "license": "MIT",
+      "skill_count": 28
     },
     {
       "name": "bestdeejay-agent-skills",
@@ -2321,8 +3254,16 @@
       "author": "bestdeejay-design",
       "repo": "https://github.com/bestdeejay-design/agent-skills",
       "install": "git",
-      "tags": ["skills", "agents", "code", "data", "media", "automation"],
-      "license": "MIT"
+      "tags": [
+        "skills",
+        "agents",
+        "code",
+        "data",
+        "media",
+        "automation"
+      ],
+      "license": "MIT",
+      "skill_count": 57
     },
     {
       "name": "cloudflare-one-migrations",
@@ -2333,7 +3274,11 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/cloudflare-one-migrations",
       "install": "git",
-      "tags": ["cloudflare", "workers", "developer-platform"],
+      "tags": [
+        "cloudflare",
+        "workers",
+        "developer-platform"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2345,7 +3290,11 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/gateway-workers",
       "install": "git",
-      "tags": ["cloudflare", "workers", "developer-platform"],
+      "tags": [
+        "cloudflare",
+        "workers",
+        "developer-platform"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2357,7 +3306,11 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/k2",
       "install": "git",
-      "tags": ["cloudflare", "workers", "developer-platform"],
+      "tags": [
+        "cloudflare",
+        "workers",
+        "developer-platform"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2369,7 +3322,11 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/sandbox-migrate-to-next",
       "install": "git",
-      "tags": ["cloudflare", "workers", "developer-platform"],
+      "tags": [
+        "cloudflare",
+        "workers",
+        "developer-platform"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2381,7 +3338,11 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/sandbox-next",
       "install": "git",
-      "tags": ["cloudflare", "workers", "developer-platform"],
+      "tags": [
+        "cloudflare",
+        "workers",
+        "developer-platform"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2393,7 +3354,11 @@
       "repo": "https://github.com/cloudflare/skills",
       "path": "skills/sandbox-stable",
       "install": "git",
-      "tags": ["cloudflare", "workers", "developer-platform"],
+      "tags": [
+        "cloudflare",
+        "workers",
+        "developer-platform"
+      ],
       "license": "Apache-2.0"
     },
     {
@@ -2405,7 +3370,10 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "agents/data-wrangler.md",
       "install": "git",
-      "tags": ["osien-stack", "agent"],
+      "tags": [
+        "osien-stack",
+        "agent"
+      ],
       "license": "MIT"
     },
     {
@@ -2417,7 +3385,10 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "agents/devops.md",
       "install": "git",
-      "tags": ["osien-stack", "agent"],
+      "tags": [
+        "osien-stack",
+        "agent"
+      ],
       "license": "MIT"
     },
     {
@@ -2429,7 +3400,10 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "agents/researcher.md",
       "install": "git",
-      "tags": ["osien-stack", "agent"],
+      "tags": [
+        "osien-stack",
+        "agent"
+      ],
       "license": "MIT"
     },
     {
@@ -2441,7 +3415,10 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "agents/test.md",
       "install": "git",
-      "tags": ["osien-stack", "agent"],
+      "tags": [
+        "osien-stack",
+        "agent"
+      ],
       "license": "MIT"
     },
     {
@@ -2453,7 +3430,10 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "commands/flow-test.md",
       "install": "git",
-      "tags": ["osien-stack", "workflow"],
+      "tags": [
+        "osien-stack",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -2465,7 +3445,10 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "commands/make-mcp.md",
       "install": "git",
-      "tags": ["osien-stack", "workflow"],
+      "tags": [
+        "osien-stack",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -2477,7 +3460,10 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "commands/mind-context.md",
       "install": "git",
-      "tags": ["osien-stack", "workflow"],
+      "tags": [
+        "osien-stack",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -2489,7 +3475,10 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "commands/sys-fast.md",
       "install": "git",
-      "tags": ["osien-stack", "workflow"],
+      "tags": [
+        "osien-stack",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -2501,7 +3490,10 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "commands/sys-doctor.md",
       "install": "git",
-      "tags": ["osien-stack", "workflow"],
+      "tags": [
+        "osien-stack",
+        "workflow"
+      ],
       "license": "MIT"
     },
     {
@@ -2513,7 +3505,12 @@
       "repo": "https://github.com/kabirprokk/Osien-Stack",
       "path": "mcp-server",
       "install": "git",
-      "tags": ["mcp", "osien-stack", "driftpost", "tools"],
+      "tags": [
+        "mcp",
+        "osien-stack",
+        "driftpost",
+        "tools"
+      ],
       "license": "MIT"
     }
   ]
