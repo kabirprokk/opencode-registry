@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "version": 1,
-  "updated": "2026-10-29",
+  "updated": "2026-11-18",
   "packages": [
     {
       "name": "osien-stack",
@@ -3699,6 +3699,42 @@
         "frontend"
       ],
       "license": "Apache-2.0"
+    },
+    {
+      "name": "osien-probe",
+      "type": "skill",
+      "version": "1.0.1",
+      "description": "Mandatory static security, cross-file taint, AST bug, and dependency CVE scanner skill for AI agents.",
+      "author": "kabirprokk",
+      "repo": "https://github.com/kabirprokk/Osien-Stack",
+      "path": "skills/osien-probe",
+      "install": "git",
+      "tags": [
+        "security",
+        "static-analysis",
+        "bugs",
+        "cve",
+        "ast"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "osien-probe-mcp",
+      "type": "mcp",
+      "version": "1.0.1",
+      "description": "Offline static analysis, 2,260+ rules/category, cross-file taint, and CVE auditor MCP server + probe CLI.",
+      "author": "kabirprokk",
+      "repo": "https://github.com/kabirprokk/OSIEN-Probe",
+      "path": "bin/osien-probe-mcp.cjs",
+      "install": "git",
+      "tags": [
+        "security",
+        "mcp",
+        "static-analysis",
+        "taint",
+        "cve"
+      ],
+      "license": "MIT"
     }
   ]
 }
